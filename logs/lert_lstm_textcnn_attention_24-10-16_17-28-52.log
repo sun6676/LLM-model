@@ -1,0 +1,44 @@
+> creating model lert
+> cuda memory allocated: 432842240
+> training arguments:
+>>> num_classes: 2
+>>> model_name: lert
+>>> method_name: lstm_textcnn_attention
+>>> train_batch_size: 32
+>>> test_batch_size: 32
+>>> num_epoch: 10
+>>> lr: 1e-05
+>>> weight_decay: 0.01
+>>> device: cuda
+>>> backend: False
+>>> workers: 0
+>>> timestamp: 1729070933151
+>>> checkpoint_dir: ./checkpoints
+>>> log_name: lert_lstm_textcnn_attention_24-10-16_17-28-52.log
+1/10 - 10.00%
+[train] loss: 0.6789, acc: 63.15
+[test] loss: 0.6471, acc: 84.15
+2/10 - 20.00%
+[train] loss: 0.5762, acc: 87.53
+[test] loss: 0.4921, acc: 87.43
+3/10 - 30.00%
+[train] loss: 0.4445, acc: 91.23
+[test] loss: 0.4920, acc: 82.51
+4/10 - 40.00%
+[train] loss: 0.4049, acc: 92.47
+[test] loss: 0.4477, acc: 86.89
+5/10 - 50.00%
+[train] loss: 0.4031, acc: 91.37
+[test] loss: 0.4831, acc: 81.42
+6/10 - 60.00%
+[train] loss: 0.3946, acc: 92.19
+[test] loss: 0.4136, acc: 90.16
+7/10 - 70.00%
+[train] loss: 0.3783, acc: 93.84
+[test] loss: 0.3964, acc: 91.80
+8/10 - 80.00%
+[train] loss: 0.3755, acc: 93.97
+[test] loss: 0.4258, acc: 89.07
+9/10 - 90.00%
+[train] loss: 0.3721, acc: 94.25
+[test] loss: 0.4182, acc: 89.62

@@ -1,0 +1,59 @@
+> creating model roberta
+> training arguments:
+>>> num_classes: 2
+>>> model_name: roberta
+>>> method_name: xlstm
+>>> train_batch_size: 32
+>>> test_batch_size: 32
+>>> num_epoch: 10
+>>> lr: 1e-05
+>>> weight_decay: 0.01
+>>> device: cpu
+>>> backend: False
+>>> workers: 0
+>>> timestamp: 1729757132669
+>>> checkpoint_dir: ./checkpoints
+>>> log_name: roberta_xlstm_24-10-24_16-05-31.log
+尝试从检查点继续训练: ./checkpoints\best_model.pth
+没有找到检查点文件，将从头开始训练。
+CUDA 已分配内存: 0 bytes
+CUDA 已保留内存: 0 bytes
+新最佳模型已保存于: ./checkpoints\best_model_epoch1_acc66.51_loss0.6377.pth
+1/10 - 10.00%
+[train] loss: 0.6482, acc: 63.49, precision: 0.5615, recall: 0.6349, f1: 0.5661
+[test] loss: 0.6377, acc: 66.51, precision: 0.4424, recall: 0.6651, f1: 0.5314
+新最佳模型已保存于: ./checkpoints\best_model_epoch2_acc84.28_loss0.4704.pth
+2/10 - 20.00%
+[train] loss: 0.5804, acc: 72.30, precision: 0.7442, recall: 0.7230, f1: 0.6661
+[test] loss: 0.4704, acc: 84.28, precision: 0.8595, recall: 0.8428, f1: 0.8461
+新最佳模型已保存于: ./checkpoints\best_model_epoch3_acc88.82_loss0.4224.pth
+3/10 - 30.00%
+[train] loss: 0.4259, acc: 88.39, precision: 0.8828, recall: 0.8839, f1: 0.8824
+[test] loss: 0.4224, acc: 88.82, precision: 0.8894, recall: 0.8882, f1: 0.8887
+新最佳模型已保存于: ./checkpoints\best_model_epoch4_acc89.99_loss0.4115.pth
+4/10 - 40.00%
+[train] loss: 0.4051, acc: 90.72, precision: 0.9066, recall: 0.9072, f1: 0.9061
+[test] loss: 0.4115, acc: 89.99, precision: 0.8995, recall: 0.8999, f1: 0.8984
+新最佳模型已保存于: ./checkpoints\best_model_epoch5_acc90.16_loss0.4110.pth
+5/10 - 50.00%
+[train] loss: 0.4020, acc: 90.93, precision: 0.9089, recall: 0.9093, f1: 0.9081
+[test] loss: 0.4110, acc: 90.16, precision: 0.9020, recall: 0.9016, f1: 0.8996
+新最佳模型已保存于: ./checkpoints\best_model_epoch6_acc90.53_loss0.4063.pth
+6/10 - 60.00%
+[train] loss: 0.3977, acc: 91.45, precision: 0.9141, recall: 0.9145, f1: 0.9135
+[test] loss: 0.4063, acc: 90.53, precision: 0.9050, recall: 0.9053, f1: 0.9040
+7/10 - 70.00%
+[train] loss: 0.3885, acc: 92.40, precision: 0.9238, recall: 0.9240, f1: 0.9232
+[test] loss: 0.4070, acc: 90.49, precision: 0.9046, recall: 0.9049, f1: 0.9036
+8/10 - 80.00%
+[train] loss: 0.3845, acc: 92.79, precision: 0.9277, recall: 0.9279, f1: 0.9272
+[test] loss: 0.4106, acc: 90.16, precision: 0.9022, recall: 0.9016, f1: 0.8995
+9/10 - 90.00%
+[train] loss: 0.3821, acc: 93.10, precision: 0.9308, recall: 0.9310, f1: 0.9303
+[test] loss: 0.4064, acc: 90.53, precision: 0.9047, recall: 0.9053, f1: 0.9044
+10/10 - 100.00%
+[train] loss: 0.3786, acc: 93.41, precision: 0.9339, recall: 0.9341, f1: 0.9336
+[test] loss: 0.4143, acc: 89.66, precision: 0.8975, recall: 0.8966, f1: 0.8969
+Training time: 46523.24 seconds
+best loss: 0.4063, best acc: 90.53
+log saved: roberta_xlstm_24-10-24_16-05-31.log

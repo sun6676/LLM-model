@@ -1,0 +1,43 @@
+> creating model lert
+> training arguments:
+>>> num_classes: 2
+>>> model_name: lert
+>>> method_name: xlstm_3dcnn
+>>> train_batch_size: 32
+>>> test_batch_size: 32
+>>> num_epoch: 10
+>>> lr: 1e-05
+>>> weight_decay: 0.01
+>>> device: cpu
+>>> backend: False
+>>> workers: 0
+>>> timestamp: 1728885550843
+>>> checkpoint_dir: ./checkpoints
+>>> log_name: lert_xlstm_3dcnn_24-10-14_13-59-10.log
+尝试从检查点继续训练: ./checkpoints\best_model.pth
+没有找到检查点文件，将从头开始训练。
+新最佳模型已保存于: ./checkpoints\best_model_epoch1_acc88.73_loss0.6503.pth
+1/10 - 10.00%
+[train] loss: 0.6911, acc: 55.21, precision: 0.5668, recall: 0.5521, f1: 0.5250
+[test] loss: 0.6503, acc: 88.73, precision: 0.8890, recall: 0.8873, f1: 0.8872
+新最佳模型已保存于: ./checkpoints\best_model_epoch2_acc88.89_loss0.4253.pth
+2/10 - 20.00%
+[train] loss: 0.4528, acc: 90.00, precision: 0.9000, recall: 0.9000, f1: 0.9000
+[test] loss: 0.4253, acc: 88.89, precision: 0.8906, recall: 0.8889, f1: 0.8888
+新最佳模型已保存于: ./checkpoints\best_model_epoch3_acc89.44_loss0.4181.pth
+3/10 - 30.00%
+[train] loss: 0.4099, acc: 90.31, precision: 0.9032, recall: 0.9031, f1: 0.9031
+[test] loss: 0.4181, acc: 89.44, precision: 0.8946, recall: 0.8944, f1: 0.8944
+新最佳模型已保存于: ./checkpoints\best_model_epoch4_acc89.77_loss0.4162.pth
+4/10 - 40.00%
+[train] loss: 0.3998, acc: 91.28, precision: 0.9139, recall: 0.9128, f1: 0.9128
+[test] loss: 0.4162, acc: 89.77, precision: 0.8991, recall: 0.8977, f1: 0.8976
+5/10 - 50.00%
+[train] loss: 0.4007, acc: 91.26, precision: 0.9128, recall: 0.9126, f1: 0.9126
+[test] loss: 0.4436, acc: 86.98, precision: 0.8777, recall: 0.8698, f1: 0.8691
+6/10 - 60.00%
+[train] loss: 0.3994, acc: 91.35, precision: 0.9135, recall: 0.9135, f1: 0.9135
+[test] loss: 0.4202, acc: 89.17, precision: 0.8928, recall: 0.8917, f1: 0.8916
+7/10 - 70.00%
+[train] loss: 0.4045, acc: 90.85, precision: 0.9086, recall: 0.9085, f1: 0.9084
+[test] loss: 0.4277, acc: 88.51, precision: 0.8926, recall: 0.8851, f1: 0.8846

@@ -1,0 +1,48 @@
+> creating model bert
+> training arguments:
+>>> num_classes: 2
+>>> model_name: bert
+>>> method_name: lstm
+>>> train_batch_size: 32
+>>> test_batch_size: 32
+>>> num_epoch: 10
+>>> lr: 1e-05
+>>> weight_decay: 0.01
+>>> device: cpu
+>>> backend: False
+>>> workers: 0
+>>> timestamp: 1714546220147
+>>> log_name: bert_lstm_24-05-01_14-50-20.log
+1/10 - 10.00%
+[train] loss: 0.6844, acc: 63.15, precision: 0.6311, recall: 0.6315, f1: 0.6304
+[test] loss: 0.6588, acc: 81.97, precision: 0.8353, recall: 0.8197, f1: 0.8184
+2/10 - 20.00%
+[train] loss: 0.6119, acc: 84.93, precision: 0.8496, recall: 0.8493, f1: 0.8494
+[test] loss: 0.5508, acc: 86.34, precision: 0.8693, recall: 0.8634, f1: 0.8632
+3/10 - 30.00%
+[train] loss: 0.5114, acc: 89.86, precision: 0.8994, recall: 0.8986, f1: 0.8987
+[test] loss: 0.4797, acc: 89.62, precision: 0.8965, recall: 0.8962, f1: 0.8961
+4/10 - 40.00%
+[train] loss: 0.4518, acc: 92.47, precision: 0.9247, recall: 0.9247, f1: 0.9247
+[test] loss: 0.4629, acc: 88.52, precision: 0.8853, recall: 0.8852, f1: 0.8853
+5/10 - 50.00%
+[train] loss: 0.4201, acc: 93.97, precision: 0.9397, recall: 0.9397, f1: 0.9397
+[test] loss: 0.4469, acc: 88.52, precision: 0.8855, recall: 0.8852, f1: 0.8851
+6/10 - 60.00%
+[train] loss: 0.4093, acc: 93.70, precision: 0.9370, recall: 0.9370, f1: 0.9370
+[test] loss: 0.4416, acc: 87.43, precision: 0.8743, recall: 0.8743, f1: 0.8743
+7/10 - 70.00%
+[train] loss: 0.3818, acc: 95.89, precision: 0.9589, recall: 0.9589, f1: 0.9589
+[test] loss: 0.4324, acc: 88.52, precision: 0.8852, recall: 0.8852, f1: 0.8852
+8/10 - 80.00%
+[train] loss: 0.3785, acc: 95.34, precision: 0.9534, recall: 0.9534, f1: 0.9534
+[test] loss: 0.4638, acc: 85.25, precision: 0.8660, recall: 0.8525, f1: 0.8517
+9/10 - 90.00%
+[train] loss: 0.3716, acc: 95.89, precision: 0.9589, recall: 0.9589, f1: 0.9589
+[test] loss: 0.4280, acc: 89.07, precision: 0.8995, recall: 0.8907, f1: 0.8897
+10/10 - 100.00%
+[train] loss: 0.3710, acc: 95.48, precision: 0.9548, recall: 0.9548, f1: 0.9548
+[test] loss: 0.4285, acc: 89.07, precision: 0.8927, recall: 0.8907, f1: 0.8907
+Training time: 9512.89 seconds
+best loss: 0.4797, best acc: 89.62
+log saved: bert_lstm_24-05-01_14-50-20.log

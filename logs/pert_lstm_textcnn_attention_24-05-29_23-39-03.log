@@ -1,0 +1,44 @@
+> creating model pert
+> training arguments:
+>>> num_classes: 2
+>>> model_name: pert
+>>> method_name: lstm_textcnn_attention
+>>> train_batch_size: 32
+>>> test_batch_size: 32
+>>> num_epoch: 10
+>>> lr: 1e-05
+>>> weight_decay: 0.01
+>>> device: cpu
+>>> backend: False
+>>> workers: 0
+>>> timestamp: 1716997144382
+>>> checkpoint_dir: ./checkpoints
+>>> log_name: pert_lstm_textcnn_attention_24-05-29_23-39-03.log
+尝试从检查点继续训练: ./checkpoints\best_model.pth
+没有找到检查点文件，将从头开始训练。
+新最佳模型已保存于: ./checkpoints\best_model_epoch1_acc89.61_loss0.4185.pth
+1/10 - 10.00%
+[train] loss: 0.5174, acc: 80.80, precision: 0.8213, recall: 0.8080, f1: 0.8064
+[test] loss: 0.4185, acc: 89.61, precision: 0.8979, recall: 0.8961, f1: 0.8957
+新最佳模型已保存于: ./checkpoints\best_model_epoch2_acc91.58_loss0.3940.pth
+2/10 - 20.00%
+[train] loss: 0.3931, acc: 91.84, precision: 0.9185, recall: 0.9184, f1: 0.9184
+[test] loss: 0.3940, acc: 91.58, precision: 0.9158, recall: 0.9158, f1: 0.9158
+新最佳模型已保存于: ./checkpoints\best_model_epoch3_acc91.63_loss0.3944.pth
+3/10 - 30.00%
+[train] loss: 0.3821, acc: 93.08, precision: 0.9308, recall: 0.9308, f1: 0.9308
+[test] loss: 0.3944, acc: 91.63, precision: 0.9176, recall: 0.9163, f1: 0.9164
+新最佳模型已保存于: ./checkpoints\best_model_epoch4_acc91.74_loss0.3958.pth
+4/10 - 40.00%
+[train] loss: 0.3765, acc: 93.51, precision: 0.9352, recall: 0.9351, f1: 0.9351
+[test] loss: 0.3958, acc: 91.74, precision: 0.9189, recall: 0.9174, f1: 0.9174
+新最佳模型已保存于: ./checkpoints\best_model_epoch5_acc92.51_loss0.3863.pth
+5/10 - 50.00%
+[train] loss: 0.3689, acc: 94.32, precision: 0.9433, recall: 0.9432, f1: 0.9432
+[test] loss: 0.3863, acc: 92.51, precision: 0.9251, recall: 0.9251, f1: 0.9251
+6/10 - 60.00%
+[train] loss: 0.3626, acc: 94.98, precision: 0.9498, recall: 0.9498, f1: 0.9498
+[test] loss: 0.3925, acc: 91.90, precision: 0.9190, recall: 0.9190, f1: 0.9190
+7/10 - 70.00%
+[train] loss: 0.3596, acc: 95.35, precision: 0.9535, recall: 0.9535, f1: 0.9535
+[test] loss: 0.3920, acc: 91.96, precision: 0.9202, recall: 0.9196, f1: 0.9196

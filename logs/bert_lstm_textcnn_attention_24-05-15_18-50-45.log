@@ -1,0 +1,52 @@
+> creating model bert
+> training arguments:
+>>> num_classes: 2
+>>> model_name: bert
+>>> method_name: lstm_textcnn_attention
+>>> train_batch_size: 64
+>>> test_batch_size: 64
+>>> num_epoch: 10
+>>> lr: 2e-05
+>>> weight_decay: 0.01
+>>> device: cpu
+>>> backend: False
+>>> workers: 0
+>>> timestamp: 1715770245587
+>>> checkpoint_dir: ./checkpoints
+>>> log_name: bert_lstm_textcnn_attention_24-05-15_18-50-45.log
+尝试从检查点继续训练: ./checkpoints\best_model.pth
+没有找到检查点文件，将从头开始训练。
+新最佳模型已保存于: ./checkpoints\best_model_epoch1_acc98.38_loss0.3295.pth
+1/10 - 10.00%
+[train] loss: 0.3371, acc: 97.78, precision: 0.9785, recall: 0.9778, f1: 0.9778
+[test] loss: 0.3295, acc: 98.38, precision: 0.9843, recall: 0.9838, f1: 0.9838
+2/10 - 20.00%
+[train] loss: 0.3345, acc: 97.87, precision: 0.9791, recall: 0.9787, f1: 0.9787
+[test] loss: 0.3297, acc: 98.36, precision: 0.9841, recall: 0.9836, f1: 0.9836
+3/10 - 30.00%
+[train] loss: 0.3306, acc: 98.27, precision: 0.9833, recall: 0.9827, f1: 0.9827
+[test] loss: 0.3305, acc: 98.28, precision: 0.9833, recall: 0.9828, f1: 0.9828
+4/10 - 40.00%
+[train] loss: 0.3328, acc: 98.04, precision: 0.9809, recall: 0.9804, f1: 0.9804
+[test] loss: 0.3307, acc: 98.25, precision: 0.9831, recall: 0.9825, f1: 0.9825
+5/10 - 50.00%
+[train] loss: 0.3310, acc: 98.23, precision: 0.9829, recall: 0.9823, f1: 0.9823
+[test] loss: 0.3307, acc: 98.26, precision: 0.9832, recall: 0.9826, f1: 0.9826
+6/10 - 60.00%
+[train] loss: 0.3306, acc: 98.26, precision: 0.9832, recall: 0.9826, f1: 0.9826
+[test] loss: 0.3305, acc: 98.28, precision: 0.9834, recall: 0.9828, f1: 0.9828
+7/10 - 70.00%
+[train] loss: 0.3303, acc: 98.29, precision: 0.9835, recall: 0.9829, f1: 0.9829
+[test] loss: 0.3304, acc: 98.29, precision: 0.9835, recall: 0.9829, f1: 0.9829
+8/10 - 80.00%
+[train] loss: 0.3303, acc: 98.29, precision: 0.9835, recall: 0.9829, f1: 0.9829
+[test] loss: 0.3298, acc: 98.35, precision: 0.9840, recall: 0.9835, f1: 0.9835
+9/10 - 90.00%
+[train] loss: 0.3421, acc: 97.12, precision: 0.9716, recall: 0.9712, f1: 0.9711
+[test] loss: 0.3372, acc: 97.60, precision: 0.9771, recall: 0.9760, f1: 0.9760
+10/10 - 100.00%
+[train] loss: 0.3633, acc: 94.99, precision: 0.9527, recall: 0.9499, f1: 0.9498
+[test] loss: 0.3313, acc: 98.20, precision: 0.9826, recall: 0.9820, f1: 0.9820
+Training time: 546381.75 seconds
+best loss: 0.3295, best acc: 98.38
+log saved: bert_lstm_textcnn_attention_24-05-15_18-50-45.log

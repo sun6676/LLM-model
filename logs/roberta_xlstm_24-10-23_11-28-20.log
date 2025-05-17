@@ -1,0 +1,24 @@
+> creating model roberta
+> training arguments:
+>>> num_classes: 2
+>>> model_name: roberta
+>>> method_name: xlstm
+>>> train_batch_size: 32
+>>> test_batch_size: 32
+>>> num_epoch: 10
+>>> lr: 1e-05
+>>> weight_decay: 0.01
+>>> device: cpu
+>>> backend: False
+>>> workers: 0
+>>> timestamp: 1729654101150
+>>> checkpoint_dir: ./checkpoints
+>>> log_name: roberta_xlstm_24-10-23_11-28-20.log
+尝试从检查点继续训练: ./checkpoints\best_model.pth
+没有找到检查点文件，将从头开始训练。
+CUDA 已分配内存: 0 bytes
+CUDA 已保留内存: 0 bytes
+新最佳模型已保存于: ./checkpoints\best_model_epoch1_acc98.33_loss0.3299.pth
+1/10 - 10.00%
+[train] loss: 0.3600, acc: 94.90, precision: 0.9531, recall: 0.9490, f1: 0.9489
+[test] loss: 0.3299, acc: 98.33, precision: 0.9839, recall: 0.9833, f1: 0.9833

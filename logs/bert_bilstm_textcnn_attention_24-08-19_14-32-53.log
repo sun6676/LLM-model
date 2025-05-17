@@ -1,0 +1,55 @@
+> creating model bert
+> training arguments:
+>>> num_classes: 2
+>>> model_name: bert
+>>> method_name: bilstm_textcnn_attention
+>>> train_batch_size: 32
+>>> test_batch_size: 32
+>>> num_epoch: 10
+>>> lr: 1e-05
+>>> weight_decay: 0.01
+>>> device: cpu
+>>> backend: False
+>>> workers: 0
+>>> timestamp: 1724049173270
+>>> checkpoint_dir: ./checkpoints
+>>> log_name: bert_bilstm_textcnn_attention_24-08-19_14-32-53.log
+尝试从检查点继续训练: ./checkpoints\best_model.pth
+没有找到检查点文件，将从头开始训练。
+新最佳模型已保存于: ./checkpoints\best_model_epoch1_acc91.08_loss0.4022.pth
+1/10 - 10.00%
+[train] loss: 0.4741, acc: 84.30, precision: 0.8482, recall: 0.8430, f1: 0.8425
+[test] loss: 0.4022, acc: 91.08, precision: 0.9108, recall: 0.9108, f1: 0.9108
+新最佳模型已保存于: ./checkpoints\best_model_epoch2_acc92.61_loss0.3876.pth
+2/10 - 20.00%
+[train] loss: 0.3971, acc: 91.57, precision: 0.9157, recall: 0.9157, f1: 0.9157
+[test] loss: 0.3876, acc: 92.61, precision: 0.9266, recall: 0.9261, f1: 0.9262
+新最佳模型已保存于: ./checkpoints\best_model_epoch3_acc92.83_loss0.3844.pth
+3/10 - 30.00%
+[train] loss: 0.3826, acc: 92.94, precision: 0.9294, recall: 0.9294, f1: 0.9294
+[test] loss: 0.3844, acc: 92.83, precision: 0.9284, recall: 0.9283, f1: 0.9283
+4/10 - 40.00%
+[train] loss: 0.3735, acc: 93.83, precision: 0.9383, recall: 0.9383, f1: 0.9383
+[test] loss: 0.3844, acc: 92.40, precision: 0.9240, recall: 0.9240, f1: 0.9240
+新最佳模型已保存于: ./checkpoints\best_model_epoch5_acc93.71_loss0.3743.pth
+5/10 - 50.00%
+[train] loss: 0.3639, acc: 94.81, precision: 0.9482, recall: 0.9481, f1: 0.9481
+[test] loss: 0.3743, acc: 93.71, precision: 0.9376, recall: 0.9371, f1: 0.9371
+6/10 - 60.00%
+[train] loss: 0.3594, acc: 95.36, precision: 0.9536, recall: 0.9536, f1: 0.9536
+[test] loss: 0.3768, acc: 93.60, precision: 0.9363, recall: 0.9360, f1: 0.9360
+7/10 - 70.00%
+[train] loss: 0.3665, acc: 94.59, precision: 0.9459, recall: 0.9459, f1: 0.9459
+[test] loss: 0.3809, acc: 93.16, precision: 0.9316, recall: 0.9316, f1: 0.9316
+8/10 - 80.00%
+[train] loss: 0.3583, acc: 95.44, precision: 0.9544, recall: 0.9544, f1: 0.9544
+[test] loss: 0.3916, acc: 91.90, precision: 0.9209, recall: 0.9190, f1: 0.9189
+9/10 - 90.00%
+[train] loss: 0.3542, acc: 95.91, precision: 0.9591, recall: 0.9591, f1: 0.9591
+[test] loss: 0.3760, acc: 93.38, precision: 0.9339, recall: 0.9338, f1: 0.9338
+10/10 - 100.00%
+[train] loss: 0.3500, acc: 96.31, precision: 0.9631, recall: 0.9631, f1: 0.9631
+[test] loss: 0.3795, acc: 93.27, precision: 0.9345, recall: 0.9327, f1: 0.9327
+Training time: 101707.73 seconds
+best loss: 0.3743, best acc: 93.71
+log saved: bert_bilstm_textcnn_attention_24-08-19_14-32-53.log

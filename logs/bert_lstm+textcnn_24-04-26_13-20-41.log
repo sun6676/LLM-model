@@ -1,0 +1,41 @@
+> creating model bert
+> training arguments:
+>>> num_classes: 3
+>>> model_name: bert
+>>> method_name: lstm+textcnn
+>>> train_batch_size: 32
+>>> test_batch_size: 32
+>>> num_epoch: 8
+>>> lr: 1e-05
+>>> weight_decay: 0.01
+>>> device: cpu
+>>> backend: False
+>>> workers: 0
+>>> timestamp: 1714108842971
+>>> log_name: bert_lstm+textcnn_24-04-26_13-20-41.log
+1/8 - 12.50%
+[train] loss: 0.7451, acc: 84.04
+[test] loss: 0.6410, acc: 91.36
+2/8 - 25.00%
+[train] loss: 0.6336, acc: 91.91
+[test] loss: 0.6364, acc: 91.52
+3/8 - 37.50%
+[train] loss: 0.6223, acc: 92.99
+[test] loss: 0.6285, acc: 92.40
+4/8 - 50.00%
+[train] loss: 0.6210, acc: 93.08
+[test] loss: 0.6269, acc: 92.45
+5/8 - 62.50%
+[train] loss: 0.6166, acc: 93.47
+[test] loss: 0.6271, acc: 92.40
+6/8 - 75.00%
+[train] loss: 0.6150, acc: 93.62
+[test] loss: 0.6395, acc: 91.14
+7/8 - 87.50%
+[train] loss: 0.6126, acc: 93.81
+[test] loss: 0.6259, acc: 92.56
+8/8 - 100.00%
+[train] loss: 0.6022, acc: 94.92
+[test] loss: 0.6289, acc: 92.18
+best loss: 0.6259, best acc: 92.56
+log saved: bert_lstm+textcnn_24-04-26_13-20-41.log

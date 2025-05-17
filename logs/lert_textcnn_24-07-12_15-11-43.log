@@ -1,0 +1,54 @@
+> creating model lert
+> training arguments:
+>>> num_classes: 2
+>>> model_name: lert
+>>> method_name: textcnn
+>>> train_batch_size: 32
+>>> test_batch_size: 32
+>>> num_epoch: 10
+>>> lr: 1e-05
+>>> weight_decay: 0.01
+>>> device: cpu
+>>> backend: False
+>>> workers: 0
+>>> timestamp: 1720768304697
+>>> checkpoint_dir: ./checkpoints
+>>> log_name: lert_textcnn_24-07-12_15-11-43.log
+尝试从检查点继续训练: ./checkpoints\best_model.pth
+没有找到检查点文件，将从头开始训练。
+新最佳模型已保存于: ./checkpoints\best_model_epoch1_acc91.41_loss0.4200.pth
+1/10 - 10.00%
+[train] loss: 0.5513, acc: 69.39, precision: 0.7323, recall: 0.6939, f1: 0.6806
+[test] loss: 0.4200, acc: 91.41, precision: 0.9141, recall: 0.9141, f1: 0.9141
+2/10 - 20.00%
+[train] loss: 0.4887, acc: 81.29, precision: 0.8305, recall: 0.8129, f1: 0.8104
+[test] loss: 0.4280, acc: 90.54, precision: 0.9093, recall: 0.9054, f1: 0.9051
+新最佳模型已保存于: ./checkpoints\best_model_epoch3_acc92.07_loss0.4081.pth
+3/10 - 30.00%
+[train] loss: 0.4722, acc: 81.64, precision: 0.8348, recall: 0.8164, f1: 0.8138
+[test] loss: 0.4081, acc: 92.07, precision: 0.9212, recall: 0.9207, f1: 0.9206
+4/10 - 40.00%
+[train] loss: 0.4615, acc: 82.29, precision: 0.8416, recall: 0.8229, f1: 0.8205
+[test] loss: 0.4141, acc: 90.75, precision: 0.9084, recall: 0.9075, f1: 0.9075
+5/10 - 50.00%
+[train] loss: 0.4487, acc: 82.84, precision: 0.8478, recall: 0.8284, f1: 0.8260
+[test] loss: 0.4004, acc: 91.74, precision: 0.9176, recall: 0.9174, f1: 0.9174
+6/10 - 60.00%
+[train] loss: 0.4449, acc: 82.42, precision: 0.8467, recall: 0.8242, f1: 0.8213
+[test] loss: 0.3994, acc: 91.79, precision: 0.9182, recall: 0.9179, f1: 0.9179
+7/10 - 70.00%
+[train] loss: 0.4371, acc: 83.50, precision: 0.8519, recall: 0.8350, f1: 0.8330
+[test] loss: 0.4001, acc: 91.52, precision: 0.9152, recall: 0.9152, f1: 0.9152
+8/10 - 80.00%
+[train] loss: 0.4344, acc: 83.06, precision: 0.8516, recall: 0.8306, f1: 0.8280
+[test] loss: 0.3985, acc: 91.63, precision: 0.9163, recall: 0.9163, f1: 0.9163
+新最佳模型已保存于: ./checkpoints\best_model_epoch9_acc92.12_loss0.3913.pth
+9/10 - 90.00%
+[train] loss: 0.4321, acc: 83.31, precision: 0.8545, recall: 0.8331, f1: 0.8305
+[test] loss: 0.3913, acc: 92.12, precision: 0.9214, recall: 0.9212, f1: 0.9212
+10/10 - 100.00%
+[train] loss: 0.4268, acc: 83.66, precision: 0.8580, recall: 0.8366, f1: 0.8341
+[test] loss: 0.4203, acc: 89.28, precision: 0.9010, recall: 0.8928, f1: 0.8921
+Training time: 92834.62 seconds
+best loss: 0.3913, best acc: 92.12
+log saved: lert_textcnn_24-07-12_15-11-43.log

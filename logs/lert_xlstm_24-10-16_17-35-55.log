@@ -1,0 +1,26 @@
+> creating model lert
+> cuda memory allocated: 445701120
+> training arguments:
+>>> num_classes: 2
+>>> model_name: lert
+>>> method_name: xlstm
+>>> train_batch_size: 32
+>>> test_batch_size: 32
+>>> num_epoch: 10
+>>> lr: 1e-05
+>>> weight_decay: 0.01
+>>> device: cuda
+>>> backend: False
+>>> workers: 0
+>>> timestamp: 1729071355372
+>>> checkpoint_dir: ./checkpoints
+>>> log_name: lert_xlstm_24-10-16_17-35-55.log
+1/10 - 10.00%
+[train] loss: 0.6934, acc: 51.37
+[test] loss: 0.6941, acc: 50.82
+2/10 - 20.00%
+[train] loss: 0.6936, acc: 51.37
+[test] loss: 0.6940, acc: 50.82
+3/10 - 30.00%
+[train] loss: 0.6932, acc: 51.37
+[test] loss: 0.6938, acc: 50.82

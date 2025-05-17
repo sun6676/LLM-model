@@ -1,0 +1,41 @@
+> creating model bert
+> training arguments:
+>>> num_classes: 3
+>>> model_name: bert
+>>> method_name: lstm_textcnn_attention
+>>> train_batch_size: 32
+>>> test_batch_size: 32
+>>> num_epoch: 8
+>>> lr: 1e-05
+>>> weight_decay: 0.01
+>>> device: cpu
+>>> backend: False
+>>> workers: 0
+>>> timestamp: 1714025815734
+>>> log_name: bert_lstm_textcnn_attention_24-04-25_14-16-54.log
+1/8 - 12.50%
+[train] loss: 0.7491, acc: 83.32
+[test] loss: 0.6395, acc: 91.30
+2/8 - 25.00%
+[train] loss: 0.6371, acc: 91.42
+[test] loss: 0.6447, acc: 90.59
+3/8 - 37.50%
+[train] loss: 0.6327, acc: 91.87
+[test] loss: 0.6332, acc: 91.74
+4/8 - 50.00%
+[train] loss: 0.6268, acc: 92.46
+[test] loss: 0.6345, acc: 91.58
+5/8 - 62.50%
+[train] loss: 0.6195, acc: 93.13
+[test] loss: 0.6367, acc: 91.25
+6/8 - 75.00%
+[train] loss: 0.6179, acc: 93.32
+[test] loss: 0.6415, acc: 91.03
+7/8 - 87.50%
+[train] loss: 0.6126, acc: 93.83
+[test] loss: 0.6371, acc: 91.41
+8/8 - 100.00%
+[train] loss: 0.6091, acc: 94.14
+[test] loss: 0.6297, acc: 92.12
+best loss: 0.6297, best acc: 92.12
+log saved: bert_lstm_textcnn_attention_24-04-25_14-16-54.log

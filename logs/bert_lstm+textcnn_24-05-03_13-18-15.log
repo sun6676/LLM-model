@@ -1,0 +1,48 @@
+> creating model bert
+> training arguments:
+>>> num_classes: 2
+>>> model_name: bert
+>>> method_name: lstm+textcnn
+>>> train_batch_size: 32
+>>> test_batch_size: 32
+>>> num_epoch: 10
+>>> lr: 1e-05
+>>> weight_decay: 0.01
+>>> device: cpu
+>>> backend: False
+>>> workers: 0
+>>> timestamp: 1714713495034
+>>> log_name: bert_lstm+textcnn_24-05-03_13-18-15.log
+1/10 - 10.00%
+[train] loss: 0.6898, acc: 56.71, precision: 0.5905, recall: 0.5671, f1: 0.5338
+[test] loss: 0.6842, acc: 62.30, precision: 0.7313, recall: 0.6230, f1: 0.6046
+2/10 - 20.00%
+[train] loss: 0.6496, acc: 76.99, precision: 0.7798, recall: 0.7699, f1: 0.7675
+[test] loss: 0.5985, acc: 81.42, precision: 0.8261, recall: 0.8142, f1: 0.8154
+3/10 - 30.00%
+[train] loss: 0.5081, acc: 88.49, precision: 0.8855, recall: 0.8849, f1: 0.8849
+[test] loss: 0.4760, acc: 87.98, precision: 0.8802, recall: 0.8798, f1: 0.8790
+4/10 - 40.00%
+[train] loss: 0.4318, acc: 91.23, precision: 0.9123, recall: 0.9123, f1: 0.9123
+[test] loss: 0.4471, acc: 88.52, precision: 0.8855, recall: 0.8852, f1: 0.8853
+5/10 - 50.00%
+[train] loss: 0.3863, acc: 94.38, precision: 0.9438, recall: 0.9438, f1: 0.9438
+[test] loss: 0.4343, acc: 89.07, precision: 0.8913, recall: 0.8907, f1: 0.8909
+6/10 - 60.00%
+[train] loss: 0.3802, acc: 94.66, precision: 0.9466, recall: 0.9466, f1: 0.9466
+[test] loss: 0.4371, acc: 87.43, precision: 0.8765, recall: 0.8743, f1: 0.8748
+7/10 - 70.00%
+[train] loss: 0.3697, acc: 95.21, precision: 0.9521, recall: 0.9521, f1: 0.9521
+[test] loss: 0.4298, acc: 89.07, precision: 0.8913, recall: 0.8907, f1: 0.8909
+8/10 - 80.00%
+[train] loss: 0.3569, acc: 96.30, precision: 0.9630, recall: 0.9630, f1: 0.9630
+[test] loss: 0.4116, acc: 90.71, precision: 0.9106, recall: 0.9071, f1: 0.9075
+9/10 - 90.00%
+[train] loss: 0.3561, acc: 96.16, precision: 0.9616, recall: 0.9616, f1: 0.9616
+[test] loss: 0.4375, acc: 86.89, precision: 0.8691, recall: 0.8689, f1: 0.8680
+10/10 - 100.00%
+[train] loss: 0.3540, acc: 96.16, precision: 0.9616, recall: 0.9616, f1: 0.9616
+[test] loss: 0.4228, acc: 89.07, precision: 0.8905, recall: 0.8907, f1: 0.8905
+Training time: 10470.03 seconds
+best loss: 0.4116, best acc: 90.71
+log saved: bert_lstm+textcnn_24-05-03_13-18-15.log

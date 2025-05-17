@@ -1,0 +1,33 @@
+> creating model bert
+> training arguments:
+>>> num_classes: 2
+>>> model_name: bert
+>>> method_name: lstm_textcnn_attention
+>>> train_batch_size: 16
+>>> test_batch_size: 16
+>>> num_epoch: 10
+>>> lr: 1e-05
+>>> weight_decay: 0.01
+>>> device: cpu
+>>> backend: False
+>>> workers: 0
+>>> timestamp: 1714658825873
+>>> log_name: bert_lstm_textcnn_attention_24-05-02_22-07-05.log
+1/10 - 10.00%
+[train] loss: 0.6758, acc: 56.85, precision: 0.6946, recall: 0.5685, f1: 0.4660
+[test] loss: 0.6096, acc: 85.79, precision: 0.8582, recall: 0.8579, f1: 0.8580
+2/10 - 20.00%
+[train] loss: 0.5018, acc: 88.90, precision: 0.8891, recall: 0.8890, f1: 0.8890
+[test] loss: 0.4349, acc: 90.71, precision: 0.9074, recall: 0.9071, f1: 0.9070
+3/10 - 30.00%
+[train] loss: 0.3962, acc: 93.29, precision: 0.9329, recall: 0.9329, f1: 0.9329
+[test] loss: 0.4356, acc: 87.98, precision: 0.8808, recall: 0.8798, f1: 0.8799
+4/10 - 40.00%
+[train] loss: 0.4175, acc: 89.59, precision: 0.8962, recall: 0.8959, f1: 0.8959
+[test] loss: 0.4088, acc: 90.71, precision: 0.9072, recall: 0.9071, f1: 0.9071
+5/10 - 50.00%
+[train] loss: 0.3767, acc: 93.70, precision: 0.9370, recall: 0.9370, f1: 0.9370
+[test] loss: 0.4056, acc: 90.16, precision: 0.9043, recall: 0.9016, f1: 0.9012
+6/10 - 60.00%
+[train] loss: 0.3592, acc: 95.75, precision: 0.9576, recall: 0.9575, f1: 0.9575
+[test] loss: 0.4206, acc: 89.62, precision: 0.9005, recall: 0.8962, f1: 0.8962

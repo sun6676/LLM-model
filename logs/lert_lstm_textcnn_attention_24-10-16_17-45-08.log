@@ -1,0 +1,32 @@
+> creating model lert
+> cuda memory allocated: 432842240
+> training arguments:
+>>> num_classes: 2
+>>> model_name: lert
+>>> method_name: lstm_textcnn_attention
+>>> train_batch_size: 32
+>>> test_batch_size: 32
+>>> num_epoch: 10
+>>> lr: 1e-05
+>>> weight_decay: 0.01
+>>> device: cuda
+>>> backend: False
+>>> workers: 0
+>>> timestamp: 1729071908054
+>>> checkpoint_dir: ./checkpoints
+>>> log_name: lert_lstm_textcnn_attention_24-10-16_17-45-08.log
+尝试从检查点继续训练: ./checkpoints\best_model.pth
+没有找到检查点文件，将从头开始训练。
+CUDA 已分配内存: 432842240 bytes
+CUDA 已保留内存: 478150656 bytes
+新最佳模型已保存于: ./checkpoints\best_model_epoch1_acc83.61_loss0.6380.pth
+1/10 - 10.00%
+[train] loss: 0.6743, acc: 67.40, precision: 0.7005, recall: 0.6740, f1: 0.6648
+[test] loss: 0.6380, acc: 83.61, precision: 0.8393, recall: 0.8361, f1: 0.8361
+新最佳模型已保存于: ./checkpoints\best_model_epoch2_acc86.89_loss0.5052.pth
+2/10 - 20.00%
+[train] loss: 0.5629, acc: 88.08, precision: 0.8818, recall: 0.8808, f1: 0.8808
+[test] loss: 0.5052, acc: 86.89, precision: 0.8700, recall: 0.8689, f1: 0.8685
+3/10 - 30.00%
+[train] loss: 0.4382, acc: 91.78, precision: 0.9179, recall: 0.9178, f1: 0.9178
+[test] loss: 0.4618, acc: 85.79, precision: 0.8583, recall: 0.8579, f1: 0.8577

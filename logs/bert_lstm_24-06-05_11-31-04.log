@@ -1,0 +1,55 @@
+> creating model bert
+> training arguments:
+>>> num_classes: 2
+>>> model_name: bert
+>>> method_name: lstm
+>>> train_batch_size: 32
+>>> test_batch_size: 32
+>>> num_epoch: 10
+>>> lr: 1e-05
+>>> weight_decay: 0.01
+>>> device: cpu
+>>> backend: False
+>>> workers: 0
+>>> timestamp: 1717558265153
+>>> checkpoint_dir: ./checkpoints
+>>> log_name: bert_lstm_24-06-05_11-31-04.log
+尝试从检查点继续训练: ./checkpoints\best_model.pth
+没有找到检查点文件，将从头开始训练。
+新最佳模型已保存于: ./checkpoints\best_model_epoch1_acc97.87_loss0.3410.pth
+1/10 - 10.00%
+[train] loss: 0.4155, acc: 93.13, precision: 0.9314, recall: 0.9313, f1: 0.9312
+[test] loss: 0.3410, acc: 97.87, precision: 0.9797, recall: 0.9787, f1: 0.9788
+新最佳模型已保存于: ./checkpoints\best_model_epoch2_acc98.02_loss0.3340.pth
+2/10 - 20.00%
+[train] loss: 0.3384, acc: 97.87, precision: 0.9793, recall: 0.9787, f1: 0.9788
+[test] loss: 0.3340, acc: 98.02, precision: 0.9810, recall: 0.9802, f1: 0.9802
+新最佳模型已保存于: ./checkpoints\best_model_epoch3_acc98.37_loss0.3306.pth
+3/10 - 30.00%
+[train] loss: 0.3332, acc: 98.13, precision: 0.9821, recall: 0.9813, f1: 0.9814
+[test] loss: 0.3306, acc: 98.37, precision: 0.9842, recall: 0.9837, f1: 0.9837
+新最佳模型已保存于: ./checkpoints\best_model_epoch4_acc98.52_loss0.3285.pth
+4/10 - 40.00%
+[train] loss: 0.3327, acc: 98.12, precision: 0.9819, recall: 0.9812, f1: 0.9812
+[test] loss: 0.3285, acc: 98.52, precision: 0.9856, recall: 0.9852, f1: 0.9852
+5/10 - 50.00%
+[train] loss: 0.3320, acc: 98.16, precision: 0.9823, recall: 0.9816, f1: 0.9816
+[test] loss: 0.3311, acc: 98.27, precision: 0.9833, recall: 0.9827, f1: 0.9827
+6/10 - 60.00%
+[train] loss: 0.3319, acc: 98.17, precision: 0.9824, recall: 0.9817, f1: 0.9817
+[test] loss: 0.3314, acc: 98.22, precision: 0.9828, recall: 0.9822, f1: 0.9822
+7/10 - 70.00%
+[train] loss: 0.3319, acc: 98.16, precision: 0.9823, recall: 0.9816, f1: 0.9816
+[test] loss: 0.3304, acc: 98.32, precision: 0.9838, recall: 0.9832, f1: 0.9832
+8/10 - 80.00%
+[train] loss: 0.3317, acc: 98.17, precision: 0.9824, recall: 0.9817, f1: 0.9817
+[test] loss: 0.3301, acc: 98.32, precision: 0.9838, recall: 0.9832, f1: 0.9832
+9/10 - 90.00%
+[train] loss: 0.3314, acc: 98.20, precision: 0.9826, recall: 0.9820, f1: 0.9820
+[test] loss: 0.3296, acc: 98.37, precision: 0.9841, recall: 0.9837, f1: 0.9837
+10/10 - 100.00%
+[train] loss: 0.3317, acc: 98.17, precision: 0.9824, recall: 0.9817, f1: 0.9817
+[test] loss: 0.3292, acc: 98.42, precision: 0.9847, recall: 0.9842, f1: 0.9842
+Training time: 44324.49 seconds
+best loss: 0.3285, best acc: 98.52
+log saved: bert_lstm_24-06-05_11-31-04.log

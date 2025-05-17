@@ -1,0 +1,19 @@
+> creating model mamba2
+> 未检测到 GPU，使用 CPU 进行训练
+> training arguments:
+>>> num_classes: 2
+>>> model_name: mamba2
+>>> method_name: xlstm
+>>> train_batch_size: 32
+>>> test_batch_size: 32
+>>> num_epoch: 10
+>>> lr: 1e-05
+>>> weight_decay: 0.01
+>>> device: cpu
+>>> backend: False
+>>> workers: 0
+>>> timestamp: 1728969533323
+>>> checkpoint_dir: ./checkpoints
+>>> log_name: mamba2_xlstm_24-10-15_13-18-53.log
+尝试从检查点继续训练: ./checkpoints\best_model.pth
+没有找到检查点文件，将从头开始训练。

@@ -1,0 +1,52 @@
+> creating model bert
+> training arguments:
+>>> num_classes: 2
+>>> model_name: bert
+>>> method_name: cnn-bilstm
+>>> train_batch_size: 32
+>>> test_batch_size: 32
+>>> num_epoch: 8
+>>> lr: 1e-05
+>>> weight_decay: 0.01
+>>> device: cpu
+>>> backend: False
+>>> workers: 0
+>>> timestamp: 1735538695843
+>>> checkpoint_dir: ./checkpoints
+>>> log_name: bert_cnn-bilstm_24-12-30_14-04-54.log
+尝试从检查点继续训练: ./checkpoints\best_model.pth
+没有找到检查点文件，将从头开始训练。
+CUDA 已分配内存: 0 bytes
+CUDA 已保留内存: 0 bytes
+新最佳模型已保存于: ./checkpoints\best_model_epoch1_acc91.14_loss0.4076.pth
+1/8 - 12.50%
+[train] loss: 0.5019, acc: 83.39, precision: 0.8347, recall: 0.8339, f1: 0.8338
+[test] loss: 0.4076, acc: 91.14, precision: 0.9133, recall: 0.9114, f1: 0.9113
+新最佳模型已保存于: ./checkpoints\best_model_epoch2_acc92.67_loss0.3848.pth
+2/8 - 25.00%
+[train] loss: 0.3931, acc: 92.19, precision: 0.9219, recall: 0.9219, f1: 0.9219
+[test] loss: 0.3848, acc: 92.67, precision: 0.9268, recall: 0.9267, f1: 0.9267
+新最佳模型已保存于: ./checkpoints\best_model_epoch3_acc92.72_loss0.3854.pth
+3/8 - 37.50%
+[train] loss: 0.3795, acc: 93.46, precision: 0.9346, recall: 0.9346, f1: 0.9346
+[test] loss: 0.3854, acc: 92.72, precision: 0.9273, recall: 0.9272, f1: 0.9272
+4/8 - 50.00%
+[train] loss: 0.3684, acc: 94.49, precision: 0.9449, recall: 0.9449, f1: 0.9449
+[test] loss: 0.4004, acc: 91.08, precision: 0.9140, recall: 0.9108, f1: 0.9106
+新最佳模型已保存于: ./checkpoints\best_model_epoch5_acc93.27_loss0.3797.pth
+5/8 - 62.50%
+[train] loss: 0.3640, acc: 94.91, precision: 0.9491, recall: 0.9491, f1: 0.9491
+[test] loss: 0.3797, acc: 93.27, precision: 0.9327, recall: 0.9327, f1: 0.9327
+6/8 - 75.00%
+[train] loss: 0.3585, acc: 95.46, precision: 0.9546, recall: 0.9546, f1: 0.9546
+[test] loss: 0.3937, acc: 91.68, precision: 0.9192, recall: 0.9168, f1: 0.9167
+7/8 - 87.50%
+[train] loss: 0.3568, acc: 95.57, precision: 0.9557, recall: 0.9557, f1: 0.9557
+[test] loss: 0.3857, acc: 92.67, precision: 0.9273, recall: 0.9267, f1: 0.9267
+新最佳模型已保存于: ./checkpoints\best_model_epoch8_acc93.33_loss0.3787.pth
+8/8 - 100.00%
+[train] loss: 0.3530, acc: 96.06, precision: 0.9606, recall: 0.9606, f1: 0.9606
+[test] loss: 0.3787, acc: 93.33, precision: 0.9334, recall: 0.9333, f1: 0.9333
+Training time: 64093.89 seconds
+best loss: 0.3787, best acc: 93.33
+log saved: bert_cnn-bilstm_24-12-30_14-04-54.log

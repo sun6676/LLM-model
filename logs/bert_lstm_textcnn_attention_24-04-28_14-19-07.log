@@ -1,0 +1,15 @@
+> creating model bert
+> training arguments:
+>>> num_classes: 3
+>>> model_name: bert
+>>> method_name: lstm_textcnn_attention
+>>> train_batch_size: 64
+>>> test_batch_size: 64
+>>> num_epoch: 10
+>>> lr: 2e-05
+>>> weight_decay: 0.01
+>>> device: cpu
+>>> backend: False
+>>> workers: 0
+>>> timestamp: 1714285147049
+>>> log_name: bert_lstm_textcnn_attention_24-04-28_14-19-07.log

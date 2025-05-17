@@ -1,0 +1,54 @@
+> creating model lert
+> training arguments:
+>>> num_classes: 2
+>>> model_name: lert
+>>> method_name: lstm_textcnn_attention
+>>> train_batch_size: 32
+>>> test_batch_size: 32
+>>> num_epoch: 10
+>>> lr: 5e-05
+>>> weight_decay: 0.01
+>>> device: cpu
+>>> backend: False
+>>> workers: 0
+>>> timestamp: 1725882395378
+>>> checkpoint_dir: ./checkpoints
+>>> log_name: lert_lstm_textcnn_attention_24-09-09_19-46-34.log
+尝试从检查点继续训练: ./checkpoints\best_model.pth
+没有找到检查点文件，将从头开始训练。
+新最佳模型已保存于: ./checkpoints\best_model_epoch1_acc88.79_loss0.4240.pth
+1/10 - 10.00%
+[train] loss: 0.4680, acc: 84.72, precision: 0.8474, recall: 0.8472, f1: 0.8472
+[test] loss: 0.4240, acc: 88.79, precision: 0.8879, recall: 0.8879, f1: 0.8879
+新最佳模型已保存于: ./checkpoints\best_model_epoch2_acc89.66_loss0.4161.pth
+2/10 - 20.00%
+[train] loss: 0.4256, acc: 88.64, precision: 0.8864, recall: 0.8864, f1: 0.8864
+[test] loss: 0.4161, acc: 89.66, precision: 0.8970, recall: 0.8966, f1: 0.8966
+新最佳模型已保存于: ./checkpoints\best_model_epoch3_acc89.88_loss0.4111.pth
+3/10 - 30.00%
+[train] loss: 0.4375, acc: 87.26, precision: 0.8726, recall: 0.8726, f1: 0.8726
+[test] loss: 0.4111, acc: 89.88, precision: 0.8995, recall: 0.8988, f1: 0.8988
+4/10 - 40.00%
+[train] loss: 0.4053, acc: 90.59, precision: 0.9059, recall: 0.9059, f1: 0.9059
+[test] loss: 0.4155, acc: 89.39, precision: 0.8989, recall: 0.8939, f1: 0.8933
+5/10 - 50.00%
+[train] loss: 0.4011, acc: 91.05, precision: 0.9105, recall: 0.9105, f1: 0.9105
+[test] loss: 0.4140, acc: 89.77, precision: 0.8981, recall: 0.8977, f1: 0.8977
+6/10 - 60.00%
+[train] loss: 0.5851, acc: 69.06, precision: 0.6947, recall: 0.6906, f1: 0.6885
+[test] loss: 0.6940, acc: 48.47, precision: 0.2349, recall: 0.4847, f1: 0.3165
+7/10 - 70.00%
+[train] loss: 0.6937, acc: 50.63, precision: 0.5054, recall: 0.5063, f1: 0.4997
+[test] loss: 0.6927, acc: 51.53, precision: 0.2656, recall: 0.5153, f1: 0.3505
+8/10 - 80.00%
+[train] loss: 0.6941, acc: 50.33, precision: 0.5027, recall: 0.5033, f1: 0.5011
+[test] loss: 0.6929, acc: 51.53, precision: 0.2656, recall: 0.5153, f1: 0.3505
+9/10 - 90.00%
+[train] loss: 0.6942, acc: 49.21, precision: 0.4909, recall: 0.4921, f1: 0.4881
+[test] loss: 0.6936, acc: 48.47, precision: 0.2349, recall: 0.4847, f1: 0.3165
+10/10 - 100.00%
+[train] loss: 0.6829, acc: 53.83, precision: 0.5447, recall: 0.5383, f1: 0.5143
+[test] loss: 0.6934, acc: 51.53, precision: 0.2656, recall: 0.5153, f1: 0.3505
+Training time: 97742.80 seconds
+best loss: 0.4111, best acc: 89.88
+log saved: lert_lstm_textcnn_attention_24-09-09_19-46-34.log

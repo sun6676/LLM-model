@@ -1,0 +1,48 @@
+> creating model bert
+> training arguments:
+>>> num_classes: 2
+>>> model_name: bert
+>>> method_name: attention
+>>> train_batch_size: 32
+>>> test_batch_size: 32
+>>> num_epoch: 10
+>>> lr: 1e-05
+>>> weight_decay: 0.01
+>>> device: cpu
+>>> backend: False
+>>> workers: 0
+>>> timestamp: 1714570226677
+>>> log_name: bert_attention_24-05-01_21-30-25.log
+1/10 - 10.00%
+[train] loss: 0.6775, acc: 63.97, precision: 0.6431, recall: 0.6397, f1: 0.6352
+[test] loss: 0.6147, acc: 91.26, precision: 0.9134, recall: 0.9126, f1: 0.9125
+2/10 - 20.00%
+[train] loss: 0.5194, acc: 87.95, precision: 0.8800, recall: 0.8795, f1: 0.8795
+[test] loss: 0.3950, acc: 93.99, precision: 0.9412, recall: 0.9399, f1: 0.9399
+3/10 - 30.00%
+[train] loss: 0.4158, acc: 90.96, precision: 0.9101, recall: 0.9096, f1: 0.9096
+[test] loss: 0.3907, acc: 92.90, precision: 0.9332, recall: 0.9290, f1: 0.9288
+4/10 - 40.00%
+[train] loss: 0.3920, acc: 92.74, precision: 0.9277, recall: 0.9274, f1: 0.9274
+[test] loss: 0.3726, acc: 94.54, precision: 0.9456, recall: 0.9454, f1: 0.9454
+5/10 - 50.00%
+[train] loss: 0.3784, acc: 93.70, precision: 0.9371, recall: 0.9370, f1: 0.9370
+[test] loss: 0.3926, acc: 91.80, precision: 0.9193, recall: 0.9180, f1: 0.9180
+6/10 - 60.00%
+[train] loss: 0.3630, acc: 95.48, precision: 0.9548, recall: 0.9548, f1: 0.9548
+[test] loss: 0.3877, acc: 91.80, precision: 0.9185, recall: 0.9180, f1: 0.9180
+7/10 - 70.00%
+[train] loss: 0.3581, acc: 95.75, precision: 0.9576, recall: 0.9575, f1: 0.9575
+[test] loss: 0.3834, acc: 93.44, precision: 0.9344, recall: 0.9344, f1: 0.9344
+8/10 - 80.00%
+[train] loss: 0.3550, acc: 96.03, precision: 0.9604, recall: 0.9603, f1: 0.9603
+[test] loss: 0.3907, acc: 92.35, precision: 0.9267, recall: 0.9235, f1: 0.9233
+9/10 - 90.00%
+[train] loss: 0.3576, acc: 95.75, precision: 0.9576, recall: 0.9575, f1: 0.9575
+[test] loss: 0.3812, acc: 93.44, precision: 0.9344, recall: 0.9344, f1: 0.9344
+10/10 - 100.00%
+[train] loss: 0.3770, acc: 93.56, precision: 0.9356, recall: 0.9356, f1: 0.9356
+[test] loss: 0.3677, acc: 94.54, precision: 0.9473, recall: 0.9454, f1: 0.9453
+Training time: 9222.94 seconds
+best loss: 0.3677, best acc: 94.54
+log saved: bert_attention_24-05-01_21-30-25.log

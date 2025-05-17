@@ -1,0 +1,21 @@
+> creating model mamba-370m
+> cuda memory allocated: 1522329600
+> training arguments:
+>>> num_classes: 2
+>>> model_name: mamba-370m
+>>> method_name: xlstm
+>>> train_batch_size: 32
+>>> test_batch_size: 32
+>>> num_epoch: 10
+>>> lr: 1e-05
+>>> weight_decay: 0.01
+>>> device: cuda
+>>> backend: False
+>>> workers: 0
+>>> timestamp: 1728992757681
+>>> checkpoint_dir: ./checkpoints
+>>> log_name: mamba-370m_xlstm_24-10-15_19-45-56.log
+尝试从检查点继续训练: ./checkpoints\best_model.pth
+没有找到检查点文件，将从头开始训练。
+CUDA 已分配内存: 1522329600 bytes
+CUDA 已保留内存: 1610612736 bytes

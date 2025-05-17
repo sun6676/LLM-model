@@ -1,0 +1,48 @@
+> creating model bert
+> training arguments:
+>>> num_classes: 2
+>>> model_name: bert
+>>> method_name: cnn-bilstm-gru
+>>> train_batch_size: 32
+>>> test_batch_size: 32
+>>> num_epoch: 8
+>>> lr: 1e-05
+>>> weight_decay: 0.01
+>>> device: cpu
+>>> backend: False
+>>> workers: 0
+>>> timestamp: 1735880844996
+>>> checkpoint_dir: ./checkpoints
+>>> log_name: bert_cnn-bilstm-gru_25-01-03_13-07-23.log
+尝试从检查点继续训练: ./checkpoints\best_model.pth
+没有找到检查点文件，将从头开始训练。
+CUDA 已分配内存: 0 bytes
+CUDA 已保留内存: 0 bytes
+新最佳模型已保存于: ./checkpoints\best_model_epoch1_acc98.42_loss0.3312.pth
+1/8 - 12.50%
+[train] loss: 0.4139, acc: 90.62, precision: 0.9077, recall: 0.9062, f1: 0.9058
+[test] loss: 0.3312, acc: 98.42, precision: 0.9847, recall: 0.9842, f1: 0.9842
+2/8 - 25.00%
+[train] loss: 0.3328, acc: 98.15, precision: 0.9821, recall: 0.9815, f1: 0.9815
+[test] loss: 0.3309, acc: 98.27, precision: 0.9833, recall: 0.9827, f1: 0.9827
+3/8 - 37.50%
+[train] loss: 0.3319, acc: 98.17, precision: 0.9824, recall: 0.9817, f1: 0.9817
+[test] loss: 0.3313, acc: 98.22, precision: 0.9829, recall: 0.9822, f1: 0.9822
+4/8 - 50.00%
+[train] loss: 0.3317, acc: 98.17, precision: 0.9824, recall: 0.9817, f1: 0.9817
+[test] loss: 0.3297, acc: 98.37, precision: 0.9843, recall: 0.9837, f1: 0.9837
+5/8 - 62.50%
+[train] loss: 0.3327, acc: 98.07, precision: 0.9814, recall: 0.9807, f1: 0.9807
+[test] loss: 0.3297, acc: 98.37, precision: 0.9843, recall: 0.9837, f1: 0.9837
+6/8 - 75.00%
+[train] loss: 0.3337, acc: 97.94, precision: 0.9799, recall: 0.9794, f1: 0.9794
+[test] loss: 0.3296, acc: 98.37, precision: 0.9843, recall: 0.9837, f1: 0.9837
+7/8 - 87.50%
+[train] loss: 0.3313, acc: 98.20, precision: 0.9825, recall: 0.9820, f1: 0.9820
+[test] loss: 0.3296, acc: 98.37, precision: 0.9843, recall: 0.9837, f1: 0.9837
+8/8 - 100.00%
+[train] loss: 0.3318, acc: 98.16, precision: 0.9822, recall: 0.9816, f1: 0.9816
+[test] loss: 0.3296, acc: 98.37, precision: 0.9843, recall: 0.9837, f1: 0.9837
+Training time: 37477.68 seconds
+best loss: 0.3312, best acc: 98.42
+log saved: bert_cnn-bilstm-gru_25-01-03_13-07-23.log

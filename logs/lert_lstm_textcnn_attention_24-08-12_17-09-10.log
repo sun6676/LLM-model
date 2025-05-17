@@ -1,0 +1,55 @@
+> creating model lert
+> training arguments:
+>>> num_classes: 2
+>>> model_name: lert
+>>> method_name: lstm_textcnn_attention
+>>> train_batch_size: 32
+>>> test_batch_size: 32
+>>> num_epoch: 10
+>>> lr: 1e-05
+>>> weight_decay: 0.01
+>>> device: cpu
+>>> backend: False
+>>> workers: 0
+>>> timestamp: 1723453751864
+>>> checkpoint_dir: ./checkpoints
+>>> log_name: lert_lstm_textcnn_attention_24-08-12_17-09-10.log
+尝试从检查点继续训练: ./checkpoints\best_model.pth
+没有找到检查点文件，将从头开始训练。
+新最佳模型已保存于: ./checkpoints\best_model_epoch1_acc93.00_loss0.3844.pth
+1/10 - 10.00%
+[train] loss: 0.4723, acc: 86.56, precision: 0.8659, recall: 0.8656, f1: 0.8656
+[test] loss: 0.3844, acc: 93.00, precision: 0.9300, recall: 0.9300, f1: 0.9300
+2/10 - 20.00%
+[train] loss: 0.3953, acc: 91.74, precision: 0.9174, recall: 0.9174, f1: 0.9174
+[test] loss: 0.4034, acc: 90.75, precision: 0.9103, recall: 0.9075, f1: 0.9074
+新最佳模型已保存于: ./checkpoints\best_model_epoch3_acc93.00_loss0.3807.pth
+3/10 - 30.00%
+[train] loss: 0.3847, acc: 92.82, precision: 0.9282, recall: 0.9282, f1: 0.9282
+[test] loss: 0.3807, acc: 93.00, precision: 0.9300, recall: 0.9300, f1: 0.9300
+4/10 - 40.00%
+[train] loss: 0.3767, acc: 93.61, precision: 0.9361, recall: 0.9361, f1: 0.9361
+[test] loss: 0.3826, acc: 93.00, precision: 0.9301, recall: 0.9300, f1: 0.9300
+5/10 - 50.00%
+[train] loss: 0.3716, acc: 94.16, precision: 0.9417, recall: 0.9416, f1: 0.9416
+[test] loss: 0.3865, acc: 92.56, precision: 0.9277, recall: 0.9256, f1: 0.9255
+6/10 - 60.00%
+[train] loss: 0.3723, acc: 94.02, precision: 0.9402, recall: 0.9402, f1: 0.9402
+[test] loss: 0.3834, acc: 92.89, precision: 0.9299, recall: 0.9289, f1: 0.9288
+新最佳模型已保存于: ./checkpoints\best_model_epoch7_acc93.49_loss0.3781.pth
+7/10 - 70.00%
+[train] loss: 0.3637, acc: 94.90, precision: 0.9490, recall: 0.9490, f1: 0.9490
+[test] loss: 0.3781, acc: 93.49, precision: 0.9351, recall: 0.9349, f1: 0.9349
+8/10 - 80.00%
+[train] loss: 0.3623, acc: 95.09, precision: 0.9509, recall: 0.9509, f1: 0.9509
+[test] loss: 0.3821, acc: 92.94, precision: 0.9294, recall: 0.9294, f1: 0.9294
+新最佳模型已保存于: ./checkpoints\best_model_epoch9_acc93.65_loss0.3751.pth
+9/10 - 90.00%
+[train] loss: 0.3636, acc: 94.94, precision: 0.9494, recall: 0.9494, f1: 0.9494
+[test] loss: 0.3751, acc: 93.65, precision: 0.9371, recall: 0.9365, f1: 0.9365
+10/10 - 100.00%
+[train] loss: 0.3644, acc: 94.85, precision: 0.9485, recall: 0.9485, f1: 0.9485
+[test] loss: 0.3812, acc: 93.00, precision: 0.9306, recall: 0.9300, f1: 0.9300
+Training time: 101323.27 seconds
+best loss: 0.3751, best acc: 93.65
+log saved: lert_lstm_textcnn_attention_24-08-12_17-09-10.log

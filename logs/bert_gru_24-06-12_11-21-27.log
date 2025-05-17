@@ -1,0 +1,53 @@
+> creating model bert
+> training arguments:
+>>> num_classes: 2
+>>> model_name: bert
+>>> method_name: gru
+>>> train_batch_size: 32
+>>> test_batch_size: 32
+>>> num_epoch: 10
+>>> lr: 1e-05
+>>> weight_decay: 0.01
+>>> device: cpu
+>>> backend: False
+>>> workers: 0
+>>> timestamp: 1718162487698
+>>> checkpoint_dir: ./checkpoints
+>>> log_name: bert_gru_24-06-12_11-21-27.log
+尝试从检查点继续训练: ./checkpoints\best_model.pth
+没有找到检查点文件，将从头开始训练。
+新最佳模型已保存于: ./checkpoints\best_model_epoch1_acc98.47_loss0.3353.pth
+1/10 - 10.00%
+[train] loss: 0.4044, acc: 93.94, precision: 0.9402, recall: 0.9394, f1: 0.9395
+[test] loss: 0.3353, acc: 98.47, precision: 0.9852, recall: 0.9847, f1: 0.9847
+新最佳模型已保存于: ./checkpoints\best_model_epoch2_acc98.57_loss0.3298.pth
+2/10 - 20.00%
+[train] loss: 0.3390, acc: 97.87, precision: 0.9795, recall: 0.9787, f1: 0.9788
+[test] loss: 0.3298, acc: 98.57, precision: 0.9861, recall: 0.9857, f1: 0.9857
+3/10 - 30.00%
+[train] loss: 0.3347, acc: 98.04, precision: 0.9811, recall: 0.9804, f1: 0.9804
+[test] loss: 0.3291, acc: 98.52, precision: 0.9856, recall: 0.9852, f1: 0.9852
+4/10 - 40.00%
+[train] loss: 0.3331, acc: 98.11, precision: 0.9818, recall: 0.9811, f1: 0.9811
+[test] loss: 0.3287, acc: 98.52, precision: 0.9856, recall: 0.9852, f1: 0.9852
+5/10 - 50.00%
+[train] loss: 0.3334, acc: 98.05, precision: 0.9811, recall: 0.9805, f1: 0.9805
+[test] loss: 0.3285, acc: 98.52, precision: 0.9856, recall: 0.9852, f1: 0.9852
+6/10 - 60.00%
+[train] loss: 0.3334, acc: 98.04, precision: 0.9810, recall: 0.9804, f1: 0.9804
+[test] loss: 0.3283, acc: 98.52, precision: 0.9856, recall: 0.9852, f1: 0.9852
+7/10 - 70.00%
+[train] loss: 0.3579, acc: 95.58, precision: 0.9558, recall: 0.9558, f1: 0.9557
+[test] loss: 0.3288, acc: 98.47, precision: 0.9852, recall: 0.9847, f1: 0.9847
+8/10 - 80.00%
+[train] loss: 0.3325, acc: 98.10, precision: 0.9817, recall: 0.9810, f1: 0.9810
+[test] loss: 0.3282, acc: 98.52, precision: 0.9856, recall: 0.9852, f1: 0.9852
+9/10 - 90.00%
+[train] loss: 0.3322, acc: 98.12, precision: 0.9820, recall: 0.9812, f1: 0.9812
+[test] loss: 0.3282, acc: 98.52, precision: 0.9856, recall: 0.9852, f1: 0.9852
+10/10 - 100.00%
+[train] loss: 0.3334, acc: 98.00, precision: 0.9806, recall: 0.9800, f1: 0.9800
+[test] loss: 0.3282, acc: 98.52, precision: 0.9856, recall: 0.9852, f1: 0.9852
+Training time: 44674.73 seconds
+best loss: 0.3298, best acc: 98.57
+log saved: bert_gru_24-06-12_11-21-27.log

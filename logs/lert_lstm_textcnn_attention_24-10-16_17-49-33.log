@@ -1,0 +1,46 @@
+> creating model lert
+> cuda memory allocated: 432842240
+> training arguments:
+>>> num_classes: 2
+>>> model_name: lert
+>>> method_name: lstm_textcnn_attention
+>>> train_batch_size: 32
+>>> test_batch_size: 32
+>>> num_epoch: 10
+>>> lr: 1e-05
+>>> weight_decay: 0.01
+>>> device: cuda
+>>> backend: False
+>>> workers: 0
+>>> timestamp: 1729072174815
+>>> checkpoint_dir: ./checkpoints
+>>> log_name: lert_lstm_textcnn_attention_24-10-16_17-49-33.log
+尝试从检查点继续训练: ./checkpoints\best_model.pth
+没有找到检查点文件，将从头开始训练。
+CUDA 已分配内存: 432842240 bytes
+CUDA 已保留内存: 478150656 bytes
+新最佳模型已保存于: ./checkpoints\best_model_epoch1_acc91.36_loss0.3999.pth
+1/10 - 10.00%
+[train] loss: 0.4744, acc: 85.85, precision: 0.8599, recall: 0.8585, f1: 0.8584
+[test] loss: 0.3999, acc: 91.36, precision: 0.9142, recall: 0.9136, f1: 0.9136
+2/10 - 20.00%
+[train] loss: 0.3990, acc: 91.28, precision: 0.9129, recall: 0.9128, f1: 0.9128
+[test] loss: 0.4072, acc: 90.43, precision: 0.9091, recall: 0.9043, f1: 0.9041
+新最佳模型已保存于: ./checkpoints\best_model_epoch3_acc91.96_loss0.3930.pth
+3/10 - 30.00%
+[train] loss: 0.3950, acc: 91.72, precision: 0.9172, recall: 0.9172, f1: 0.9172
+[test] loss: 0.3930, acc: 91.96, precision: 0.9214, recall: 0.9196, f1: 0.9194
+新最佳模型已保存于: ./checkpoints\best_model_epoch4_acc92.94_loss0.3834.pth
+4/10 - 40.00%
+[train] loss: 0.3813, acc: 93.17, precision: 0.9317, recall: 0.9317, f1: 0.9317
+[test] loss: 0.3834, acc: 92.94, precision: 0.9295, recall: 0.9294, f1: 0.9294
+新最佳模型已保存于: ./checkpoints\best_model_epoch5_acc93.00_loss0.3821.pth
+5/10 - 50.00%
+[train] loss: 0.3725, acc: 93.97, precision: 0.9397, recall: 0.9397, f1: 0.9397
+[test] loss: 0.3821, acc: 93.00, precision: 0.9301, recall: 0.9300, f1: 0.9300
+6/10 - 60.00%
+[train] loss: 0.3685, acc: 94.42, precision: 0.9442, recall: 0.9442, f1: 0.9442
+[test] loss: 0.3849, acc: 92.78, precision: 0.9280, recall: 0.9278, f1: 0.9278
+7/10 - 70.00%
+[train] loss: 0.3693, acc: 94.39, precision: 0.9440, recall: 0.9439, f1: 0.9439
+[test] loss: 0.3925, acc: 92.01, precision: 0.9218, recall: 0.9201, f1: 0.9201

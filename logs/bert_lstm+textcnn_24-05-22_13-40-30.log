@@ -1,0 +1,34 @@
+> creating model bert
+> training arguments:
+>>> num_classes: 2
+>>> model_name: bert
+>>> method_name: lstm+textcnn
+>>> train_batch_size: 64
+>>> test_batch_size: 64
+>>> num_epoch: 4
+>>> lr: 2e-05
+>>> weight_decay: 0.01
+>>> device: cpu
+>>> backend: False
+>>> workers: 0
+>>> timestamp: 1716356431620
+>>> checkpoint_dir: ./checkpoints
+>>> log_name: bert_lstm+textcnn_24-05-22_13-40-30.log
+尝试从检查点继续训练: ./checkpoints\best_model.pth
+没有找到检查点文件，将从头开始训练。
+新最佳模型已保存于: ./checkpoints\best_model_epoch1_acc98.31_loss0.3301.pth
+1/4 - 25.00%
+[train] loss: 0.3376, acc: 97.69, precision: 0.9776, recall: 0.9769, f1: 0.9769
+[test] loss: 0.3301, acc: 98.31, precision: 0.9837, recall: 0.9831, f1: 0.9831
+2/4 - 50.00%
+[train] loss: 0.3307, acc: 98.25, precision: 0.9831, recall: 0.9825, f1: 0.9825
+[test] loss: 0.3302, acc: 98.31, precision: 0.9836, recall: 0.9831, f1: 0.9831
+3/4 - 75.00%
+[train] loss: 0.4038, acc: 90.86, precision: 0.9129, recall: 0.9086, f1: 0.9084
+[test] loss: 0.3329, acc: 98.03, precision: 0.9811, recall: 0.9803, f1: 0.9803
+4/4 - 100.00%
+[train] loss: 0.3303, acc: 98.30, precision: 0.9835, recall: 0.9830, f1: 0.9830
+[test] loss: 0.3303, acc: 98.30, precision: 0.9835, recall: 0.9830, f1: 0.9830
+Training time: 213876.57 seconds
+best loss: 0.3301, best acc: 98.31
+log saved: bert_lstm+textcnn_24-05-22_13-40-30.log

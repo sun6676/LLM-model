@@ -1,0 +1,30 @@
+> creating model bert
+> training arguments:
+>>> num_classes: 3
+>>> model_name: bert
+>>> method_name: bilstm
+>>> train_batch_size: 32
+>>> test_batch_size: 32
+>>> num_epoch: 8
+>>> lr: 1e-05
+>>> weight_decay: 0.01
+>>> device: cpu
+>>> backend: False
+>>> workers: 0
+>>> timestamp: 1714230924679
+>>> log_name: bert_bilstm_24-04-27_23-15-23.log
+1/8 - 12.50%
+[train] loss: 0.8237, acc: 80.27
+[test] loss: 0.6864, acc: 89.00
+2/8 - 25.00%
+[train] loss: 0.6558, acc: 91.00
+[test] loss: 0.6320, acc: 92.40
+3/8 - 37.50%
+[train] loss: 0.6328, acc: 92.31
+[test] loss: 0.6209, acc: 93.27
+4/8 - 50.00%
+[train] loss: 0.6212, acc: 93.25
+[test] loss: 0.6227, acc: 92.89
+5/8 - 62.50%
+[train] loss: 0.6174, acc: 93.51
+[test] loss: 0.6201, acc: 93.16

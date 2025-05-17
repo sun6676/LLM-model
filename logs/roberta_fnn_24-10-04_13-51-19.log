@@ -1,0 +1,58 @@
+> creating model roberta
+> training arguments:
+>>> num_classes: 2
+>>> model_name: roberta
+>>> method_name: fnn
+>>> train_batch_size: 32
+>>> test_batch_size: 32
+>>> num_epoch: 10
+>>> lr: 1e-05
+>>> weight_decay: 0.01
+>>> device: cpu
+>>> backend: False
+>>> workers: 0
+>>> timestamp: 1728021079162
+>>> checkpoint_dir: ./checkpoints
+>>> log_name: roberta_fnn_24-10-04_13-51-19.log
+尝试从检查点继续训练: ./checkpoints\best_model.pth
+没有找到检查点文件，将从头开始训练。
+新最佳模型已保存于: ./checkpoints\best_model_epoch1_acc88.07_loss0.4330.pth
+1/10 - 10.00%
+[train] loss: 0.5189, acc: 78.28, precision: 0.7829, recall: 0.7828, f1: 0.7828
+[test] loss: 0.4330, acc: 88.07, precision: 0.8813, recall: 0.8807, f1: 0.8807
+新最佳模型已保存于: ./checkpoints\best_model_epoch2_acc89.06_loss0.4199.pth
+2/10 - 20.00%
+[train] loss: 0.4227, acc: 88.72, precision: 0.8875, recall: 0.8872, f1: 0.8872
+[test] loss: 0.4199, acc: 89.06, precision: 0.8910, recall: 0.8906, f1: 0.8905
+新最佳模型已保存于: ./checkpoints\best_model_epoch3_acc89.72_loss0.4129.pth
+3/10 - 30.00%
+[train] loss: 0.3960, acc: 91.53, precision: 0.9156, recall: 0.9153, f1: 0.9153
+[test] loss: 0.4129, acc: 89.72, precision: 0.8981, recall: 0.8972, f1: 0.8971
+新最佳模型已保存于: ./checkpoints\best_model_epoch4_acc89.93_loss0.4092.pth
+4/10 - 40.00%
+[train] loss: 0.3862, acc: 92.61, precision: 0.9262, recall: 0.9261, f1: 0.9261
+[test] loss: 0.4092, acc: 89.93, precision: 0.9006, recall: 0.8993, f1: 0.8993
+新最佳模型已保存于: ./checkpoints\best_model_epoch5_acc90.15_loss0.4062.pth
+5/10 - 50.00%
+[train] loss: 0.3750, acc: 93.91, precision: 0.9392, recall: 0.9391, f1: 0.9391
+[test] loss: 0.4062, acc: 90.15, precision: 0.9016, recall: 0.9015, f1: 0.9015
+新最佳模型已保存于: ./checkpoints\best_model_epoch6_acc90.48_loss0.4047.pth
+6/10 - 60.00%
+[train] loss: 0.3677, acc: 94.55, precision: 0.9456, recall: 0.9455, f1: 0.9455
+[test] loss: 0.4047, acc: 90.48, precision: 0.9055, recall: 0.9048, f1: 0.9048
+7/10 - 70.00%
+[train] loss: 0.3632, acc: 94.98, precision: 0.9499, recall: 0.9498, f1: 0.9498
+[test] loss: 0.4063, acc: 90.37, precision: 0.9058, recall: 0.9037, f1: 0.9036
+8/10 - 80.00%
+[train] loss: 0.3585, acc: 95.51, precision: 0.9552, recall: 0.9551, f1: 0.9551
+[test] loss: 0.4092, acc: 90.10, precision: 0.9016, recall: 0.9010, f1: 0.9010
+新最佳模型已保存于: ./checkpoints\best_model_epoch9_acc91.03_loss0.4004.pth
+9/10 - 90.00%
+[train] loss: 0.3587, acc: 95.39, precision: 0.9540, recall: 0.9539, f1: 0.9539
+[test] loss: 0.4004, acc: 91.03, precision: 0.9106, recall: 0.9103, f1: 0.9102
+10/10 - 100.00%
+[train] loss: 0.3580, acc: 95.51, precision: 0.9552, recall: 0.9551, f1: 0.9551
+[test] loss: 0.4028, acc: 90.59, precision: 0.9059, recall: 0.9059, f1: 0.9059
+Training time: 91836.39 seconds
+best loss: 0.4004, best acc: 91.03
+log saved: roberta_fnn_24-10-04_13-51-19.log

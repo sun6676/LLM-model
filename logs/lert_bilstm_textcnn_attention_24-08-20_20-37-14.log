@@ -1,0 +1,48 @@
+> creating model lert
+> training arguments:
+>>> num_classes: 2
+>>> model_name: lert
+>>> method_name: bilstm_textcnn_attention
+>>> train_batch_size: 32
+>>> test_batch_size: 32
+>>> num_epoch: 10
+>>> lr: 1e-05
+>>> weight_decay: 0.01
+>>> device: cpu
+>>> backend: False
+>>> workers: 0
+>>> timestamp: 1724157435394
+>>> checkpoint_dir: ./checkpoints
+>>> log_name: lert_bilstm_textcnn_attention_24-08-20_20-37-14.log
+尝试从检查点继续训练: ./checkpoints\best_model.pth
+没有找到检查点文件，将从头开始训练。
+新最佳模型已保存于: ./checkpoints\best_model_epoch1_acc92.07_loss0.3930.pth
+1/10 - 10.00%
+[train] loss: 0.4750, acc: 85.76, precision: 0.8592, recall: 0.8576, f1: 0.8574
+[test] loss: 0.3930, acc: 92.07, precision: 0.9220, recall: 0.9207, f1: 0.9206
+新最佳模型已保存于: ./checkpoints\best_model_epoch2_acc92.83_loss0.3828.pth
+2/10 - 20.00%
+[train] loss: 0.3927, acc: 92.00, precision: 0.9200, recall: 0.9200, f1: 0.9200
+[test] loss: 0.3828, acc: 92.83, precision: 0.9293, recall: 0.9283, f1: 0.9283
+新最佳模型已保存于: ./checkpoints\best_model_epoch3_acc92.89_loss0.3852.pth
+3/10 - 30.00%
+[train] loss: 0.3822, acc: 93.06, precision: 0.9306, recall: 0.9306, f1: 0.9306
+[test] loss: 0.3852, acc: 92.89, precision: 0.9299, recall: 0.9289, f1: 0.9288
+新最佳模型已保存于: ./checkpoints\best_model_epoch4_acc93.00_loss0.3815.pth
+4/10 - 40.00%
+[train] loss: 0.3884, acc: 92.39, precision: 0.9240, recall: 0.9239, f1: 0.9239
+[test] loss: 0.3815, acc: 93.00, precision: 0.9301, recall: 0.9300, f1: 0.9300
+新最佳模型已保存于: ./checkpoints\best_model_epoch5_acc93.05_loss0.3814.pth
+5/10 - 50.00%
+[train] loss: 0.3776, acc: 93.50, precision: 0.9351, recall: 0.9350, f1: 0.9350
+[test] loss: 0.3814, acc: 93.05, precision: 0.9306, recall: 0.9305, f1: 0.9305
+6/10 - 60.00%
+[train] loss: 0.3769, acc: 93.61, precision: 0.9361, recall: 0.9361, f1: 0.9361
+[test] loss: 0.3879, acc: 92.23, precision: 0.9227, recall: 0.9223, f1: 0.9223
+新最佳模型已保存于: ./checkpoints\best_model_epoch7_acc93.11_loss0.3811.pth
+7/10 - 70.00%
+[train] loss: 0.3820, acc: 93.06, precision: 0.9306, recall: 0.9306, f1: 0.9306
+[test] loss: 0.3811, acc: 93.11, precision: 0.9311, recall: 0.9311, f1: 0.9311
+8/10 - 80.00%
+[train] loss: 0.3709, acc: 94.21, precision: 0.9421, recall: 0.9421, f1: 0.9421
+[test] loss: 0.3821, acc: 93.05, precision: 0.9305, recall: 0.9305, f1: 0.9305

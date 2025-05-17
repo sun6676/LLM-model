@@ -1,0 +1,21 @@
+> creating model bert
+> training arguments:
+>>> num_classes: 2
+>>> model_name: bert
+>>> method_name: lstm_textcnn_attention
+>>> train_batch_size: 32
+>>> test_batch_size: 32
+>>> num_epoch: 10
+>>> lr: 1e-05
+>>> weight_decay: 0.01
+>>> device: cpu
+>>> backend: False
+>>> workers: 0
+>>> timestamp: 1714742436503
+>>> log_name: bert_lstm_textcnn_attention_24-05-03_21-20-35.log
+1/10 - 10.00%
+[train] loss: 0.6899, acc: 49.86, precision: 0.2486, recall: 0.4986, f1: 0.3318
+[test] loss: 0.6627, acc: 56.83, precision: 0.3230, recall: 0.5683, f1: 0.4119
+2/10 - 20.00%
+[train] loss: 0.6160, acc: 82.33, precision: 0.8384, recall: 0.8233, f1: 0.8214
+[test] loss: 0.5456, acc: 87.43, precision: 0.8843, recall: 0.8743, f1: 0.8749

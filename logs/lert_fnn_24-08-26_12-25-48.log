@@ -1,0 +1,52 @@
+> creating model lert
+> training arguments:
+>>> num_classes: 2
+>>> model_name: lert
+>>> method_name: fnn
+>>> train_batch_size: 32
+>>> test_batch_size: 32
+>>> num_epoch: 10
+>>> lr: 1e-05
+>>> weight_decay: 0.01
+>>> device: cpu
+>>> backend: False
+>>> workers: 0
+>>> timestamp: 1724646349792
+>>> checkpoint_dir: ./checkpoints
+>>> log_name: lert_fnn_24-08-26_12-25-48.log
+尝试从检查点继续训练: ./checkpoints\best_model.pth
+没有找到检查点文件，将从头开始训练。
+新最佳模型已保存于: ./checkpoints\best_model_epoch1_acc98.37_loss0.3297.pth
+1/10 - 10.00%
+[train] loss: 0.3704, acc: 94.34, precision: 0.9434, recall: 0.9434, f1: 0.9434
+[test] loss: 0.3297, acc: 98.37, precision: 0.9842, recall: 0.9837, f1: 0.9837
+2/10 - 20.00%
+[train] loss: 0.3325, acc: 98.07, precision: 0.9814, recall: 0.9807, f1: 0.9807
+[test] loss: 0.3301, acc: 98.32, precision: 0.9837, recall: 0.9832, f1: 0.9832
+3/10 - 30.00%
+[train] loss: 0.3316, acc: 98.18, precision: 0.9825, recall: 0.9818, f1: 0.9819
+[test] loss: 0.3306, acc: 98.27, precision: 0.9833, recall: 0.9827, f1: 0.9827
+4/10 - 40.00%
+[train] loss: 0.3316, acc: 98.17, precision: 0.9823, recall: 0.9817, f1: 0.9817
+[test] loss: 0.3301, acc: 98.32, precision: 0.9838, recall: 0.9832, f1: 0.9832
+5/10 - 50.00%
+[train] loss: 0.3319, acc: 98.13, precision: 0.9818, recall: 0.9813, f1: 0.9814
+[test] loss: 0.3320, acc: 98.12, precision: 0.9819, recall: 0.9812, f1: 0.9812
+6/10 - 60.00%
+[train] loss: 0.3340, acc: 97.95, precision: 0.9798, recall: 0.9795, f1: 0.9795
+[test] loss: 0.3316, acc: 98.17, precision: 0.9824, recall: 0.9817, f1: 0.9817
+7/10 - 70.00%
+[train] loss: 0.3359, acc: 97.74, precision: 0.9777, recall: 0.9774, f1: 0.9774
+[test] loss: 0.3311, acc: 98.22, precision: 0.9829, recall: 0.9822, f1: 0.9822
+8/10 - 80.00%
+[train] loss: 0.3313, acc: 98.20, precision: 0.9826, recall: 0.9820, f1: 0.9820
+[test] loss: 0.3320, acc: 98.12, precision: 0.9818, recall: 0.9812, f1: 0.9812
+9/10 - 90.00%
+[train] loss: 0.3313, acc: 98.18, precision: 0.9825, recall: 0.9818, f1: 0.9819
+[test] loss: 0.3330, acc: 98.02, precision: 0.9810, recall: 0.9802, f1: 0.9802
+10/10 - 100.00%
+[train] loss: 0.3310, acc: 98.23, precision: 0.9830, recall: 0.9823, f1: 0.9823
+[test] loss: 0.3318, acc: 98.12, precision: 0.9817, recall: 0.9812, f1: 0.9812
+Training time: 43934.71 seconds
+best loss: 0.3297, best acc: 98.37
+log saved: lert_fnn_24-08-26_12-25-48.log

@@ -1,0 +1,26 @@
+> creating model lert
+> training arguments:
+>>> num_classes: 2
+>>> model_name: lert
+>>> method_name: fnn
+>>> train_batch_size: 32
+>>> test_batch_size: 32
+>>> num_epoch: 10
+>>> lr: 1e-05
+>>> weight_decay: 0.01
+>>> device: cpu
+>>> backend: False
+>>> workers: 0
+>>> timestamp: 1728458443146
+>>> checkpoint_dir: ./checkpoints
+>>> log_name: lert_fnn_24-10-09_15-20-43.log
+尝试从检查点继续训练: ./checkpoints\best_model.pth
+没有找到检查点文件，将从头开始训练。
+新最佳模型已保存于: ./checkpoints\best_model_epoch1_acc98.02_loss0.3326.pth
+1/10 - 10.00%
+[train] loss: 0.3737, acc: 94.02, precision: 0.9403, recall: 0.9402, f1: 0.9402
+[test] loss: 0.3326, acc: 98.02, precision: 0.9809, recall: 0.9802, f1: 0.9802
+新最佳模型已保存于: ./checkpoints\best_model_epoch2_acc98.22_loss0.3304.pth
+2/10 - 20.00%
+[train] loss: 0.3328, acc: 98.06, precision: 0.9812, recall: 0.9806, f1: 0.9806
+[test] loss: 0.3304, acc: 98.22, precision: 0.9828, recall: 0.9822, f1: 0.9822

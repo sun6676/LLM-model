@@ -1,0 +1,57 @@
+> creating model roberta
+> training arguments:
+>>> num_classes: 2
+>>> model_name: roberta
+>>> method_name: fnn
+>>> train_batch_size: 32
+>>> test_batch_size: 32
+>>> num_epoch: 10
+>>> lr: 1e-05
+>>> weight_decay: 0.01
+>>> device: cpu
+>>> backend: False
+>>> workers: 0
+>>> timestamp: 1728113458964
+>>> checkpoint_dir: ./checkpoints
+>>> log_name: roberta_fnn_24-10-05_15-30-58.log
+尝试从检查点继续训练: ./checkpoints\best_model.pth
+没有找到检查点文件，将从头开始训练。
+新最佳模型已保存于: ./checkpoints\best_model_epoch1_acc98.47_loss0.3284.pth
+1/10 - 10.00%
+[train] loss: 0.4166, acc: 89.47, precision: 0.8947, recall: 0.8947, f1: 0.8947
+[test] loss: 0.3284, acc: 98.47, precision: 0.9851, recall: 0.9847, f1: 0.9847
+新最佳模型已保存于: ./checkpoints\best_model_epoch2_acc98.52_loss0.3280.pth
+2/10 - 20.00%
+[train] loss: 0.3331, acc: 98.05, precision: 0.9811, recall: 0.9805, f1: 0.9805
+[test] loss: 0.3280, acc: 98.52, precision: 0.9857, recall: 0.9852, f1: 0.9852
+3/10 - 30.00%
+[train] loss: 0.3329, acc: 98.05, precision: 0.9811, recall: 0.9805, f1: 0.9805
+[test] loss: 0.3286, acc: 98.42, precision: 0.9847, recall: 0.9842, f1: 0.9842
+新最佳模型已保存于: ./checkpoints\best_model_epoch4_acc98.52_loss0.3280.pth
+4/10 - 40.00%
+[train] loss: 0.3318, acc: 98.16, precision: 0.9823, recall: 0.9816, f1: 0.9816
+[test] loss: 0.3280, acc: 98.52, precision: 0.9857, recall: 0.9852, f1: 0.9852
+新最佳模型已保存于: ./checkpoints\best_model_epoch5_acc98.57_loss0.3276.pth
+5/10 - 50.00%
+[train] loss: 0.3317, acc: 98.16, precision: 0.9823, recall: 0.9816, f1: 0.9816
+[test] loss: 0.3276, acc: 98.57, precision: 0.9861, recall: 0.9857, f1: 0.9857
+新最佳模型已保存于: ./checkpoints\best_model_epoch6_acc98.71_loss0.3261.pth
+6/10 - 60.00%
+[train] loss: 0.3321, acc: 98.11, precision: 0.9818, recall: 0.9811, f1: 0.9811
+[test] loss: 0.3261, acc: 98.71, precision: 0.9875, recall: 0.9871, f1: 0.9872
+新最佳模型已保存于: ./checkpoints\best_model_epoch7_acc98.71_loss0.3261.pth
+7/10 - 70.00%
+[train] loss: 0.3319, acc: 98.13, precision: 0.9821, recall: 0.9813, f1: 0.9814
+[test] loss: 0.3261, acc: 98.71, precision: 0.9875, recall: 0.9871, f1: 0.9872
+8/10 - 80.00%
+[train] loss: 0.3316, acc: 98.17, precision: 0.9824, recall: 0.9817, f1: 0.9817
+[test] loss: 0.3262, acc: 98.71, precision: 0.9875, recall: 0.9871, f1: 0.9872
+9/10 - 90.00%
+[train] loss: 0.3314, acc: 98.18, precision: 0.9825, recall: 0.9818, f1: 0.9819
+[test] loss: 0.3262, acc: 98.71, precision: 0.9875, recall: 0.9871, f1: 0.9872
+10/10 - 100.00%
+[train] loss: 0.3318, acc: 98.13, precision: 0.9820, recall: 0.9813, f1: 0.9814
+[test] loss: 0.3271, acc: 98.62, precision: 0.9866, recall: 0.9862, f1: 0.9862
+Training time: 42498.34 seconds
+best loss: 0.3261, best acc: 98.71
+log saved: roberta_fnn_24-10-05_15-30-58.log

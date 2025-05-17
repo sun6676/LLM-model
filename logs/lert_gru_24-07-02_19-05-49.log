@@ -1,0 +1,55 @@
+> creating model lert
+> training arguments:
+>>> num_classes: 2
+>>> model_name: lert
+>>> method_name: gru
+>>> train_batch_size: 32
+>>> test_batch_size: 32
+>>> num_epoch: 10
+>>> lr: 1e-05
+>>> weight_decay: 0.01
+>>> device: cpu
+>>> backend: False
+>>> workers: 0
+>>> timestamp: 1719918350086
+>>> checkpoint_dir: ./checkpoints
+>>> log_name: lert_gru_24-07-02_19-05-49.log
+尝试从检查点继续训练: ./checkpoints\best_model.pth
+没有找到检查点文件，将从头开始训练。
+新最佳模型已保存于: ./checkpoints\best_model_epoch1_acc92.78_loss0.3876.pth
+1/10 - 10.00%
+[train] loss: 0.4733, acc: 85.29, precision: 0.8563, recall: 0.8529, f1: 0.8525
+[test] loss: 0.3876, acc: 92.78, precision: 0.9287, recall: 0.9278, f1: 0.9278
+2/10 - 20.00%
+[train] loss: 0.3890, acc: 92.71, precision: 0.9271, recall: 0.9271, f1: 0.9271
+[test] loss: 0.3867, acc: 92.51, precision: 0.9251, recall: 0.9251, f1: 0.9251
+新最佳模型已保存于: ./checkpoints\best_model_epoch3_acc92.94_loss0.3838.pth
+3/10 - 30.00%
+[train] loss: 0.3779, acc: 93.51, precision: 0.9352, recall: 0.9351, f1: 0.9351
+[test] loss: 0.3838, acc: 92.94, precision: 0.9294, recall: 0.9294, f1: 0.9294
+新最佳模型已保存于: ./checkpoints\best_model_epoch4_acc93.71_loss0.3765.pth
+4/10 - 40.00%
+[train] loss: 0.3707, acc: 94.27, precision: 0.9427, recall: 0.9427, f1: 0.9427
+[test] loss: 0.3765, acc: 93.71, precision: 0.9371, recall: 0.9371, f1: 0.9371
+5/10 - 50.00%
+[train] loss: 0.3641, acc: 94.90, precision: 0.9490, recall: 0.9490, f1: 0.9490
+[test] loss: 0.3787, acc: 93.60, precision: 0.9360, recall: 0.9360, f1: 0.9360
+6/10 - 60.00%
+[train] loss: 0.3669, acc: 94.65, precision: 0.9465, recall: 0.9465, f1: 0.9465
+[test] loss: 0.3765, acc: 93.60, precision: 0.9360, recall: 0.9360, f1: 0.9360
+新最佳模型已保存于: ./checkpoints\best_model_epoch7_acc93.98_loss0.3743.pth
+7/10 - 70.00%
+[train] loss: 0.3611, acc: 95.16, precision: 0.9516, recall: 0.9516, f1: 0.9516
+[test] loss: 0.3743, acc: 93.98, precision: 0.9399, recall: 0.9398, f1: 0.9398
+8/10 - 80.00%
+[train] loss: 0.3553, acc: 95.83, precision: 0.9583, recall: 0.9583, f1: 0.9583
+[test] loss: 0.3799, acc: 93.33, precision: 0.9334, recall: 0.9333, f1: 0.9333
+9/10 - 90.00%
+[train] loss: 0.3559, acc: 95.69, precision: 0.9569, recall: 0.9569, f1: 0.9569
+[test] loss: 0.3878, acc: 92.45, precision: 0.9254, recall: 0.9245, f1: 0.9244
+10/10 - 100.00%
+[train] loss: 0.3531, acc: 95.96, precision: 0.9596, recall: 0.9596, f1: 0.9596
+[test] loss: 0.3777, acc: 93.33, precision: 0.9334, recall: 0.9333, f1: 0.9332
+Training time: 93637.84 seconds
+best loss: 0.3743, best acc: 93.98
+log saved: lert_gru_24-07-02_19-05-49.log

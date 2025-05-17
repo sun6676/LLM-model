@@ -1,0 +1,53 @@
+> creating model bert
+> training arguments:
+>>> num_classes: 2
+>>> model_name: bert
+>>> method_name: bilstm
+>>> train_batch_size: 32
+>>> test_batch_size: 32
+>>> num_epoch: 10
+>>> lr: 1e-05
+>>> weight_decay: 0.01
+>>> device: cpu
+>>> backend: False
+>>> workers: 0
+>>> timestamp: 1717732407633
+>>> checkpoint_dir: ./checkpoints
+>>> log_name: bert_bilstm_24-06-07_11-53-27.log
+尝试从检查点继续训练: ./checkpoints\best_model.pth
+没有找到检查点文件，将从头开始训练。
+新最佳模型已保存于: ./checkpoints\best_model_epoch1_acc98.37_loss0.3434.pth
+1/10 - 10.00%
+[train] loss: 0.4471, acc: 93.45, precision: 0.9407, recall: 0.9345, f1: 0.9346
+[test] loss: 0.3434, acc: 98.37, precision: 0.9843, recall: 0.9837, f1: 0.9837
+新最佳模型已保存于: ./checkpoints\best_model_epoch2_acc98.47_loss0.3315.pth
+2/10 - 20.00%
+[train] loss: 0.3405, acc: 97.97, precision: 0.9804, recall: 0.9797, f1: 0.9798
+[test] loss: 0.3315, acc: 98.47, precision: 0.9852, recall: 0.9847, f1: 0.9847
+3/10 - 30.00%
+[train] loss: 0.3338, acc: 98.16, precision: 0.9823, recall: 0.9816, f1: 0.9816
+[test] loss: 0.3302, acc: 98.42, precision: 0.9847, recall: 0.9842, f1: 0.9842
+4/10 - 40.00%
+[train] loss: 0.3327, acc: 98.16, precision: 0.9822, recall: 0.9816, f1: 0.9816
+[test] loss: 0.3296, acc: 98.42, precision: 0.9846, recall: 0.9842, f1: 0.9842
+5/10 - 50.00%
+[train] loss: 0.3361, acc: 97.76, precision: 0.9781, recall: 0.9776, f1: 0.9777
+[test] loss: 0.3306, acc: 98.32, precision: 0.9838, recall: 0.9832, f1: 0.9832
+6/10 - 60.00%
+[train] loss: 0.3323, acc: 98.13, precision: 0.9820, recall: 0.9813, f1: 0.9814
+[test] loss: 0.3339, acc: 97.92, precision: 0.9793, recall: 0.9792, f1: 0.9792
+7/10 - 70.00%
+[train] loss: 0.3371, acc: 97.61, precision: 0.9765, recall: 0.9761, f1: 0.9762
+[test] loss: 0.3298, acc: 98.37, precision: 0.9843, recall: 0.9837, f1: 0.9837
+8/10 - 80.00%
+[train] loss: 0.3335, acc: 97.97, precision: 0.9802, recall: 0.9797, f1: 0.9798
+[test] loss: 0.3292, acc: 98.42, precision: 0.9847, recall: 0.9842, f1: 0.9842
+9/10 - 90.00%
+[train] loss: 0.3321, acc: 98.13, precision: 0.9820, recall: 0.9813, f1: 0.9814
+[test] loss: 0.3292, acc: 98.42, precision: 0.9847, recall: 0.9842, f1: 0.9842
+10/10 - 100.00%
+[train] loss: 0.3351, acc: 97.83, precision: 0.9787, recall: 0.9783, f1: 0.9783
+[test] loss: 0.3292, acc: 98.42, precision: 0.9847, recall: 0.9842, f1: 0.9842
+Training time: 44850.89 seconds
+best loss: 0.3315, best acc: 98.47
+log saved: bert_bilstm_24-06-07_11-53-27.log

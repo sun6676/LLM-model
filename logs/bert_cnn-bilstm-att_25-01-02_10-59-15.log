@@ -1,0 +1,53 @@
+> creating model bert
+> training arguments:
+>>> num_classes: 2
+>>> model_name: bert
+>>> method_name: cnn-bilstm-att
+>>> train_batch_size: 32
+>>> test_batch_size: 32
+>>> num_epoch: 8
+>>> lr: 1e-05
+>>> weight_decay: 0.01
+>>> device: cpu
+>>> backend: False
+>>> workers: 0
+>>> timestamp: 1735786756757
+>>> checkpoint_dir: ./checkpoints
+>>> log_name: bert_cnn-bilstm-att_25-01-02_10-59-15.log
+尝试从检查点继续训练: ./checkpoints\best_model.pth
+没有找到检查点文件，将从头开始训练。
+CUDA 已分配内存: 0 bytes
+CUDA 已保留内存: 0 bytes
+新最佳模型已保存于: ./checkpoints\best_model_epoch1_acc91.79_loss0.3953.pth
+1/8 - 12.50%
+[train] loss: 0.4802, acc: 84.78, precision: 0.8501, recall: 0.8478, f1: 0.8476
+[test] loss: 0.3953, acc: 91.79, precision: 0.9182, recall: 0.9179, f1: 0.9179
+新最佳模型已保存于: ./checkpoints\best_model_epoch2_acc92.23_loss0.3914.pth
+2/8 - 25.00%
+[train] loss: 0.3920, acc: 92.21, precision: 0.9221, recall: 0.9221, f1: 0.9221
+[test] loss: 0.3914, acc: 92.23, precision: 0.9229, recall: 0.9223, f1: 0.9223
+3/8 - 37.50%
+[train] loss: 0.3837, acc: 93.01, precision: 0.9302, recall: 0.9301, f1: 0.9301
+[test] loss: 0.4380, acc: 87.14, precision: 0.8850, recall: 0.8714, f1: 0.8703
+新最佳模型已保存于: ./checkpoints\best_model_epoch4_acc92.29_loss0.3898.pth
+4/8 - 50.00%
+[train] loss: 0.3792, acc: 93.32, precision: 0.9332, recall: 0.9332, f1: 0.9332
+[test] loss: 0.3898, acc: 92.29, precision: 0.9230, recall: 0.9229, f1: 0.9229
+5/8 - 62.50%
+[train] loss: 0.3725, acc: 94.02, precision: 0.9402, recall: 0.9402, f1: 0.9402
+[test] loss: 0.3916, acc: 92.07, precision: 0.9215, recall: 0.9207, f1: 0.9206
+新最佳模型已保存于: ./checkpoints\best_model_epoch6_acc92.89_loss0.3829.pth
+6/8 - 75.00%
+[train] loss: 0.3695, acc: 94.36, precision: 0.9436, recall: 0.9436, f1: 0.9436
+[test] loss: 0.3829, acc: 92.89, precision: 0.9289, recall: 0.9289, f1: 0.9289
+新最佳模型已保存于: ./checkpoints\best_model_epoch7_acc92.89_loss0.3826.pth
+7/8 - 87.50%
+[train] loss: 0.3671, acc: 94.59, precision: 0.9460, recall: 0.9459, f1: 0.9459
+[test] loss: 0.3826, acc: 92.89, precision: 0.9289, recall: 0.9289, f1: 0.9289
+新最佳模型已保存于: ./checkpoints\best_model_epoch8_acc93.33_loss0.3792.pth
+8/8 - 100.00%
+[train] loss: 0.3617, acc: 95.10, precision: 0.9510, recall: 0.9510, f1: 0.9510
+[test] loss: 0.3792, acc: 93.33, precision: 0.9333, recall: 0.9333, f1: 0.9333
+Training time: 63612.95 seconds
+best loss: 0.3792, best acc: 93.33
+log saved: bert_cnn-bilstm-att_25-01-02_10-59-15.log

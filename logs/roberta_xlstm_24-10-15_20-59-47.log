@@ -1,0 +1,55 @@
+> creating model roberta
+> cuda memory allocated: 462478336
+> training arguments:
+>>> num_classes: 2
+>>> model_name: roberta
+>>> method_name: xlstm
+>>> train_batch_size: 32
+>>> test_batch_size: 32
+>>> num_epoch: 10
+>>> lr: 1e-05
+>>> weight_decay: 0.01
+>>> device: cuda
+>>> backend: False
+>>> workers: 0
+>>> timestamp: 1728997188479
+>>> checkpoint_dir: ./checkpoints
+>>> log_name: roberta_xlstm_24-10-15_20-59-47.log
+尝试从检查点继续训练: ./checkpoints\best_model.pth
+没有找到检查点文件，将从头开始训练。
+CUDA 已分配内存: 462478336 bytes
+CUDA 已保留内存: 501219328 bytes
+新最佳模型已保存于: ./checkpoints\best_model_epoch1_acc49.07_loss0.6990.pth
+1/10 - 10.00%
+[train] loss: 0.6972, acc: 50.10, precision: 0.2510, recall: 0.5010, f1: 0.3344
+[test] loss: 0.6990, acc: 49.07, precision: 0.2408, recall: 0.4907, f1: 0.3231
+2/10 - 20.00%
+[train] loss: 0.6972, acc: 50.10, precision: 0.2510, recall: 0.5010, f1: 0.3344
+[test] loss: 0.6991, acc: 49.07, precision: 0.2408, recall: 0.4907, f1: 0.3231
+3/10 - 30.00%
+[train] loss: 0.6971, acc: 50.10, precision: 0.2510, recall: 0.5010, f1: 0.3344
+[test] loss: 0.6990, acc: 49.07, precision: 0.2408, recall: 0.4907, f1: 0.3231
+4/10 - 40.00%
+[train] loss: 0.6971, acc: 50.10, precision: 0.2510, recall: 0.5010, f1: 0.3344
+[test] loss: 0.6990, acc: 49.07, precision: 0.2408, recall: 0.4907, f1: 0.3231
+5/10 - 50.00%
+[train] loss: 0.6971, acc: 50.10, precision: 0.2510, recall: 0.5010, f1: 0.3344
+[test] loss: 0.6990, acc: 49.07, precision: 0.2408, recall: 0.4907, f1: 0.3231
+6/10 - 60.00%
+[train] loss: 0.6972, acc: 50.10, precision: 0.2510, recall: 0.5010, f1: 0.3344
+[test] loss: 0.6991, acc: 49.07, precision: 0.2408, recall: 0.4907, f1: 0.3231
+7/10 - 70.00%
+[train] loss: 0.6971, acc: 50.10, precision: 0.2510, recall: 0.5010, f1: 0.3344
+[test] loss: 0.6990, acc: 49.07, precision: 0.2408, recall: 0.4907, f1: 0.3231
+8/10 - 80.00%
+[train] loss: 0.6972, acc: 50.10, precision: 0.2510, recall: 0.5010, f1: 0.3344
+[test] loss: 0.6990, acc: 49.07, precision: 0.2408, recall: 0.4907, f1: 0.3231
+9/10 - 90.00%
+[train] loss: 0.6972, acc: 50.10, precision: 0.2510, recall: 0.5010, f1: 0.3344
+[test] loss: 0.6991, acc: 49.07, precision: 0.2408, recall: 0.4907, f1: 0.3231
+10/10 - 100.00%
+[train] loss: 0.6972, acc: 50.10, precision: 0.2510, recall: 0.5010, f1: 0.3344
+[test] loss: 0.6990, acc: 49.07, precision: 0.2408, recall: 0.4907, f1: 0.3231
+Training time: 5301.72 seconds
+best loss: 0.6990, best acc: 49.07
+log saved: roberta_xlstm_24-10-15_20-59-47.log

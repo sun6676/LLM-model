@@ -1,0 +1,26 @@
+> creating model lert
+> training arguments:
+>>> num_classes: 2
+>>> model_name: lert
+>>> method_name: lstm_textcnn_attention
+>>> train_batch_size: 32
+>>> test_batch_size: 32
+>>> num_epoch: 10
+>>> lr: 1e-05
+>>> weight_decay: 0.01
+>>> device: cpu
+>>> backend: False
+>>> workers: 0
+>>> timestamp: 1727151543019
+>>> checkpoint_dir: ./checkpoints
+>>> log_name: lert_lstm_textcnn_attention_24-09-24_12-19-02.log
+尝试从检查点继续训练: ./checkpoints\best_model.pth
+没有找到检查点文件，将从头开始训练。
+新最佳模型已保存于: ./checkpoints\best_model_epoch1_acc100.00_loss0.3890.pth
+1/10 - 10.00%
+[train] loss: 0.5029, acc: 99.75, precision: 1.0000, recall: 0.9975, f1: 0.9988
+[test] loss: 0.3890, acc: 100.00, precision: 1.0000, recall: 1.0000, f1: 1.0000
+新最佳模型已保存于: ./checkpoints\best_model_epoch2_acc100.00_loss0.3323.pth
+2/10 - 20.00%
+[train] loss: 0.3577, acc: 100.00, precision: 1.0000, recall: 1.0000, f1: 1.0000
+[test] loss: 0.3323, acc: 100.00, precision: 1.0000, recall: 1.0000, f1: 1.0000
